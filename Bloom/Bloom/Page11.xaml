@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.Page11">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text= "Car seat best practices" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"
+                       VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                <Image Source="f14" Aspect="AspectFill" HeightRequest="200" WidthRequest="150"/>
+
+                <Label Padding="10"  Text=" Car seat quidelines, and even the seats available, can vary a lot based on where you live. But this is one of the biggest areas to consider when hoping to keep your child safe. After all, you and your baby probably spend a lot of time in the car getting to and from all the places you go. And your little one obviously needs a bit of extra stability and protection in order to be safe in that car " 
+                       TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text=" Start by talking to vour pediatrician about the car seat regulations and recommendations in your area, and then consider joining an online ar seat discussion group like Car Seats for Littles on Facebook in order to become even more educated. In the United States, the American Academy of Pediatrics currently recommends keeping your little one rear facina in the car until at least 2 years of age, and in an booster until anywhere from 8 to 12 years of age.When installing the car seat, read not only the user manual from the seat but also your car's owner's manual. Be sure the base if tightly nd properly installed in the car. Also, be sure you are correctly fastening your baby in the seat. The chest harness should be at armpit level and the straps should be tight against baby's body. If it's cold out, consider a car seat cover rather than a snowsuit on baby. and cover baby after the straps have been fastened (rather than having a blanket around baby under te straps). "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label  Padding="10" Text=" You should also ensure you are using a car seat with a known history (no accidents) and one that hasn't vet expired, as the plastic beains to degrade after expiration occurs "
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text="And keep one more thing in mind - the car seat is not a crib alternative. In fact, recent research has shown that sleeping in car seats could actually be dangerous - mostly because car seats do not provide that optimal sleeping environment otherwise recommended for cribs. In general, if your child falls asleep in the car seat while on a drive - that's fine. And totally normal, plenty of little ones do it. But you should never allow your baby to sleep in the car seat unsupervised or unnecessarily - once you are home, take them out and put them in the crib to be safe. " 
+                        TextColor="Black" FontSize="Small"/>
+
+
+
+                <Label Text="Please note:"/>
+
+                <Label Text=" This information is not intended to replace the advice of a trained medical doctor." />
+
+
+                <Label Text=" Philips Consumer Lifestyle B.V. disclaims any liability for the decisions you make based on this information,"/>
+                <Label Text=" which is provided to you on a general information basis only and not as a substitute for personalized medical advice."/>
+                <Label Text="All contents copyright O Philips Consumer Lifestyle B.V. 2023. All rights reserved"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

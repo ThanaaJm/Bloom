@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="Bloom.TabbedPage1"
+              BackgroundColor="WhiteSmoke" BarBackgroundColor="#09DEF9" BarTextColor="White">
+
+    <ContentPage Title="Main">
+        <ScrollView>
+            <StackLayout >
+                <Grid Margin="15,20,15,20" RowSpacing="15">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button  Grid.Row="0" BackgroundColor="White" 
+                        Text="Guides" TextColor="Black" FontSize="25" 
+                         TextTransform="Uppercase" FontAttributes="Bold"  
+                         ImageSource="guidesimg.png" Clicked="guides" />
+
+                    <Button  Grid.Row="1" BackgroundColor="White" 
+                         Text="Development" TextColor="Black" FontSize="25"
+                         TextTransform="Uppercase" FontAttributes="Bold" 
+                         ImageSource="developmentimg.png" Clicked="development"/>
+
+                    <Button  Grid.Row="2" BackgroundColor="White" 
+                         Text="Activies" TextColor="Black" FontSize="25"
+                         TextTransform="Uppercase" FontAttributes="Bold" 
+                         ImageSource="activitiesimg.png" Clicked="activies"/>
+
+                    <Button  Grid.Row="3" BackgroundColor="White" 
+                         Text="Teeth" TextColor="Black" FontSize="25"
+                         TextTransform="Uppercase" FontAttributes="Bold"
+                         ImageSource="teethimg.png" Clicked="teeth"/>
+
+                </Grid>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    <ContentPage Title="Courses">
+        <StackLayout>
+            <StackLayout Margin="20,-10,20,0" Padding="10">
+                <Label Text="we announce that we started to give a Special Course which will be face-to-face for those who want some extra assistance." 
+                       Margin="10" FontSize="15" TextColor="Black"></Label>
+
+                <Label Text="To those who are interested" 
+                       Margin="10,0,-10,0" FontSize="17" TextColor="#09DEF9" FontAttributes="Bold"></Label>
+                <Label Text="Please share your information and we will send you all the information about it " 
+                        Margin="10,-0,10,0" FontSize="17" TextColor="#09DEF9"></Label>
+               
+                
+                <Entry Placeholder="Name" x:Name="txtName" ></Entry>
+                <Entry Placeholder="Phone number" x:Name="txtPhone" MaxLength="10" ></Entry>
+                <Entry Placeholder="Please describe the type of consultation" x:Name="txtEmail" ></Entry>
+                
+                
+                <Button Text="Save" x:Name="Save" Clicked="Save_Clicked" TextColor="Black"  CornerRadius="45"
+                        FontAttributes="Bold" BackgroundColor="AliceBlue"  BorderWidth="3"
+                        BorderColor="Black" HorizontalOptions="Fill"></Button>
+
+                
+                
+                <Label Text="For Admins" 
+                       Margin="0,50,0,0" FontSize="20" TextColor="#09DEF9" FontAttributes="Bold"></Label>
+
+                <Entry Placeholder="UserName" x:Name="adminEntry" ></Entry>
+                <Entry Placeholder="password" x:Name="passwordEntry"></Entry>
+                
+                <Button Text="Login" x:Name="get" Clicked="get_Clicked"
+                        FontAttributes="Bold" TextColor="Black" BackgroundColor="AliceBlue"
+                        BorderWidth="3" BorderColor="Black" CornerRadius="45"
+                        HorizontalOptions="Fill"></Button>
+                
+            </StackLayout>
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>

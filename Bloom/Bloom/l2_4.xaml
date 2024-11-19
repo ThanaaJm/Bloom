@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l2_4">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p10" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="3D objects" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="You will be amazed by your newborn's grip.If you put your finger or a toy in their hand they will hold on. But this early grasp is a reflex, and it will be a while before your babys deliberately grabbing and holding objects to play." TextColor="Black"/>
+                <Label Text="Between five to eight months, your baby will start picking up larger objects, like plocks or toys. You will notice your little one concentrating hard on the object, judging the distance, then reaching out and grabbing it. They will start to pass the object from hand to hand, and from hand to mouth. So be sure whatever your baby can reach is safe to be in their mouth." TextColor="Black"/>
+                <Label Text="During this time, your baby's sense of touch is developing. You can help to expand that by providing different textures and shapes for your baby to enjoy." TextColor="Black"/>
+                <Label Text="Spatial awareness" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="You can also help their developing sense of spatial awareness. This skill will help them learn about their own body in the space they are in, whether objects are flat or dimensional,and eventually how to walk and run." TextColor="Black"/>
+                <Label Text="You can help your baby's developing sense of space through play:
+1-provide toys with handles or parts that cantwist or spin
+2-play with floating toys in the tub
+3-let your baby explore small boxes or unbreakable bottles
+4-place your baby in front of a mirror" TextColor="Black"/>
+                <Label Text="Be sure that none of the objects have parts that could fall off or become a choking nazard. It will be a while before your baby's pincer grasp is fully developed, but you want to be aware of what they are playing with from the start." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

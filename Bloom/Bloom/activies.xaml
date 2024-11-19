@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.activies" BarBackgroundColor="White" 
+            UnselectedTabColor="LightGray"
+            SelectedTabColor="#09DEF9">
+    <ContentPage Title="0-4 Months">
+        <StackLayout Padding="10">
+            <CollectionView x:Name="co1" SelectionMode="Single" SelectionChanged="co1_SelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="200"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding img}" HeightRequest="100" Grid.Column="0"/>
+                            <Label Text="{Binding text}" FontSize="Large" HeightRequest="100"  TextColor="Black" Grid.Column="1"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="5-8 Months">
+        <StackLayout Padding="10">
+            <CollectionView x:Name="co2" SelectionMode="Single" SelectionChanged="co2_SelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="200"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding img}" HeightRequest="100" Grid.Column="0"/>
+                            <Label Text="{Binding text}" TextColor="Black" FontSize="Large" HeightRequest="100" Grid.Column="1"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="9-12 Months">
+        <StackLayout Padding="10">
+            <CollectionView x:Name="co3" SelectionMode="Single" SelectionChanged="co3_SelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="200"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding img}" HeightRequest="100" Grid.Column="0"/>
+                            <Label Text="{Binding text}" TextColor="Black" FontSize="Large" HeightRequest="100" Grid.Column="1"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="13-18 Months">
+        <StackLayout Padding="10">
+            <CollectionView x:Name="co4" SelectionMode="Single" SelectionChanged="co4_SelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="200"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding img}" HeightRequest="100" Grid.Column="0"/>
+                            <Label Text="{Binding text}" TextColor="Black" FontSize="Large" HeightRequest="100" Grid.Column="1"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="19-24 Months">
+        <StackLayout Padding="10">
+            <CollectionView x:Name="co5" SelectionMode="Single" SelectionChanged="co5_SelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="200"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding img}" HeightRequest="100" Grid.Column="0"/>
+                            <Label Text="{Binding text}" TextColor="Black" FontSize="Large" HeightRequest="100" Grid.Column="1"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l5_2">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p18" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="Hide and seek" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="Hide and seek is a childhood classic - but did you know playing it will encourage gross notor and cognitive skill development? By running around seeking, your toddler will exercise all their muscles and will improve their balance, agility and coordination as well as their physical stamina. At the same time,they will be exercising their brain, trying tc imagine where you are or where they will hide next and improving their critical thinking skills." TextColor="Black"/>
+                <Label Text="Start by setting the rules" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Let your child know the boundaries of where they can hide (staying in the yard, not climbing too high, not hiding in any dangerous place). Agree on how long you will count before you say, 'Ready or not, here I come,' and start to seek (keep in mind what numbers your toddler knows). You may need to count for your little one at first. Keep the number rather low so you can keep their attention." TextColor="Black"/>
+                <Label Text="Use caution with this activity: your toddler may be scared by hiding or when you are hidden. Make your hiding place obvious, provide verbal cues or let part of your body show if your child seems hesitant or frightened." TextColor="Black"/>
+                <Label Text="If your child seems especially upset when you are out of sight, then you can change the game a little. Have them cover their eyes while you hide an object. Then, let them search the yard for it while you tag along for support and clues." TextColor="Black"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

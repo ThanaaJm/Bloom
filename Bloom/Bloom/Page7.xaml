@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.Page7">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text= "About breastfeeding" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"
+                       VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                <Image Source="f7" Aspect="AspectFill" HeightRequest="200" WidthRequest="150"/>
+
+                <Label  Padding="10" Text="Congratulations on the birth of your baby! We know, you are tired and are probably looking at your baby in awe right now. You'd like to breastfeed and that is wonderful news since breastfeeding is the healthiest choice for both you and your baby. The WHO and UNICEF recommend that infants are exclusivelv breastfed for the first 6 months of life, and continue to be breastfed with the addition of appropriate complementary foods until 2 years or older. In order to successfully breastfeed, it is important to start off on the right foot and not get discouraged if things are a bit difficult in the beginning. "
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label Text= "The first 48 hours with your baby " TextColor="Black" FontSize="15" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                <Label  Padding="10" Text=" Keep your baby on your chest during the first hours after birth. Have your baby skin-to-skin as much as possible so vou can get to know each other in this new way. Usually within the first hour your baby will start rooting for your nipple. Don't hesitate to ask for the help of your midwife, doula or nurse to help your baby latch on. In the beginning your little one might not suck right away or close their mouth around the nipple completely. Be patient, it will happen. Once your baby latches on correctly, you will feel a gentle tugging. "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label  Padding="10" Text="It's best if you can latch your little one on within the first 2 hours after birth. Infants who suckle within the first 2 hours ingest significantly more milk on day four than those who did not. After that, both you and baby will be very sleepy and breastfeeding is less important. Rest and try to wake up and feeu Davy every Snours or so. Try to breastfeed at least 8 to 12 times within the first 24 hours after your baby's birth. In general, it is best to feed baby every two to three hours during the first month to keep the milk supply up and help with weight gain. "
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label Text= " Latching " TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+                <Label  Padding="10" Text=" To help your baby latch onto your breast, skin to-skin may be best at first. Take off any layers of clothing your baby is wearing so it doesn't get too warm during breastfeeding. That includes aloves, since your baby will massage your breast with his hand while breastfeedina. releasing oxytocin which you need for milk flow. Your baby should latch on 'asymmetrically,' or 'nose-to-nipple' so that baby must reach up bit to take the nipple into his mouth, allowing the nipple to sit far back in baby's mouth. Make sure vour little one opens his mouth wide and let him grab the nipple from below (it sounds weird but in fact your nipple should face the baby's nose before latching on). Basically you see a lot of the areola peeking out in front of the baby's nose but not in front of the lower lip. To help your baby latch onto your breast, skin to-skin may be best at first. Take off any layers of clothing your baby is wearing so it doesn't get too warm during breastfeeding. That includes aloves, since your baby will massage your breast with his hand while breastfeedina. releasing oxytocin which you need for milk flow. Your baby should latch on 'asymmetrically,' or 'nose-to-nipple' so that baby must reach up bit to take the nipple into his mouth, allowing the nipple to sit far back in baby's mouth. Make sure vour little one opens his mouth wide and let him grab the nipple from below (it sounds weird but in fact your nipple should face the baby's nose before latching on). Basically you see a lot of the areola peeking out in front of the baby's nose but not in front of the lower lip. "
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text="Make sure vour baby's body is tummy-to tummy or chest-to-breast, hips flexed in a c shape with body wrapped around mom. Ear, shoulder and hip should align, with arms and hands hugging your breast on either side. " 
+                        TextColor="Black" FontSize="Small"/>
+
+
+                <Label Text= " Liquid gold " TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                <Label  Padding="10" Text="Three days after the birth, your milk will 'come in.' Before this, vour breast milk will contain colostrum, which is very important for the first days after the birth. Colostrum gives your baby the first building blocks for his immune system and intestinal flora. Over the first week or so, the milk will transition from colostrum to mature milk. The symptoms you might have include very warm breasts, pain in the breasts, swelling, chills, and sometimes fever. If vour baby can't latch on well because vour breast is swollen, put some warm cloths on your breast before feeding. Massage the breast and squeeze out some milk so the breast is getting softer. After breastfeeding, you may cool down the breast with cooling pads " 
+                        TextColor="Black" FontSize="Small"/>
+
+
+                <Label Text= " Try to breastfeed exclusively!" TextColor="Black" FontSize="20" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                <Label  Padding="10" Text=" Formula changes your baby's gut pH for 6 weeks, making them more prone to infections. Breastmilk is the 'perfect food' for babies- it is easily digested and provides the best mix of nutrients and antibodies necessary for babies to thrive. Breastfeeding helps your little one's gastrointestinal tract (and immune system) to develop and promotes good health. Breastfed babies have lower incidence of jaundice. allergies, asthma, SIDS and childhood cancers. Also breastfeeding promotes growth and reduces the risk of obesity later in life." 
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label Text= "Medication " TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+                <Label  Padding="10" Text="When medications have been used during labor, including IV fluids, infants lose more weight in the first postpartum days than when a mother didn't have any medication. The reason is that babies are horn with a hiaher birth weight when the mom received IV fluids simply from the excess water weight that needs to be shed. If you had an epidural or a cesarean birth, your baby will particularly need to be observed more closely to ensure he gets nourished enough during their first days " 
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text="Nicotine and most drugs will pass right into the breastmilk. Discuss with your healthcare provider which medications vou're allowed to take while breastfeeding. " 
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label Text= "Breastfeeding is fun and work at the same time! " TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                <Label  Padding="10" Text="Even though it takes some effort, you'll likely find breastfeeding to be an enjoyable and bonding experience with your baby. Remember the following tips to help you along the way: " 
+                        TextColor="Black" FontSize="Small"/>
+                <Label  Padding="10" Text=" Sleep when your baby is sleeping. Enjoy the quiet moments with your baby and be proud of the fact vou continue to produce everything that is needed for him to thrive. Get pampered, and make sure you have a lot of help at home." 
+                        TextColor="Black" FontSize="Small"/>
+
+
+
+                <Label  Padding="10" Text="Take care of yourself and enjoy this precious time with your baby!" 
+  TextColor="Black" FontSize="Small"/>
+
+                <Label Text="Please note:"/>
+
+                <Label Text=" This information is not intended to replace the advice of a trained medical doctor." />
+
+
+                <Label Text=" Philips Consumer Lifestyle B.V. disclaims any liability for the decisions you make based on this information,"/>
+                <Label Text=" which is provided to you on a general information basis only and not as a substitute for personalized medical advice."/>
+                <Label Text="All contents copyright O Philips Consumer Lifestyle B.V. 2023. All rights reserved"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.Page8">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text= "Burping your baby" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"
+                       VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                <Image Source="f8" Aspect="AspectFill" HeightRequest="200" WidthRequest="150"/>
+
+                <Label Padding="10"  Text=" Some breastfed babies just don't need to burp much. Others who qulp a lot of milk quickly at the breast may need to be burped. Some moms try burping their babies when they are switching breasts, others just wait until they notice their babies seem uncomfortable. Either way is fine. " TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text=" Some parents are concerned about the amount baby spits up when burped. Most of the time spitting up simply means your baby has eaten more than his stomach can handle, or maybe some of the milk is above an air bubble that is released with burping. Keep in mind it's not all milk that's being spit up -it's mixed with mucous and saliva. So when a baby spits up, it doesn't necessarily mean he's losing all he's eaten. "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label  Padding="10" Text="Most of the time spitting up is a laundry problem rather than a health problem. If, however, your baby exhibits any of the following signs, you may want to discuss spitting with your baby's healthcare provider: vomitina that is forceful and causes distress or discomfort for baby, any blood in the vomit or what looks like coffee grounds, bright green or yellow vomit, refusal to feed for more than two feedings in a row, lack of weight gain, and vomit accompanied by other signs of illness such as fever or difficulty breathing. "
+                        TextColor="Black" FontSize="Small"/>
+
+
+
+
+                <Label Text="Please note:"/>
+
+                <Label Text=" This information is not intended to replace the advice of a trained medical doctor." />
+
+
+                <Label Text=" Philips Consumer Lifestyle B.V. disclaims any liability for the decisions you make based on this information,"/>
+                <Label Text=" which is provided to you on a general information basis only and not as a substitute for personalized medical advice."/>
+                <Label Text="All contents copyright O Philips Consumer Lifestyle B.V. 2023. All rights reserved"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

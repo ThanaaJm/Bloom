@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.Page3">
+<ContentPage.Content>
+    <ScrollView>
+        <StackLayout>
+            <Label Text= "Bathig your newborn" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"
+                   VerticalOptions="Center" HorizontalOptions="Center"/>
+
+            <Image Source="f3" Aspect="AspectFill" HeightRequest="200" WidthRequest="150"/>
+
+            <Label Padding="10"  Text="Bath time can be a lot of fun for your little one. It can be a nice ritual for partners once they come home at night or a great family tradition for older siblings. But it can also be tough to keep your baby safe while trying to get him clean. Learn how to give baby a bath and safely make bath time a special time."
+                   TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text=" * For the first baths have your partner present. Both parents or one parent and a doula or baby nurse are needed since you will need an extra hand in the beginning. "
+                  TextColor="Black" FontSize="Small" />
+
+            <Label  Padding="10" Text=" * Fill the tub with a couple of inches of lukewarm water. Before you place your baby in the tub, check the temperature by dipping your wrist in the water. Your hand is not sensitive enough to differentiate whether the temperature is ok or not. Keep testing the temperature as you go When it gets too cool, bath time is over."
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text=" * Set everything you'll need within arm's reach -- soap, washcloth, towel, diaper, change of clothes-- before you start so that you can keep one hand on your baby at all times. When you're doe bathing him, quickly wrap him up in the towel so he doesn't lose too much body heat. Dry him thoroughly, being sure to get into the creases, before you diaper and dress him." 
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label Padding="10"  Text="* Put your little one in the water with both hands. Wrap one arm under his neck/head and around his arm to keep him stabilized. Use vour other hand to clean him."  TextColor="Black" FontSize="Small"/>
+
+            <Label Padding="10"  Text="* Use a washcloth with water and a mild baby wash"  TextColor="Black" FontSize="Small"/>
+            <Label Padding="10"  Text="* Some newborns find the water stimulating, so it's great to get him splashing first thing in the morning. Others mellow out in the tub, which makes it perfect right before bedtime. Your baby doesn't need a bath every day; two or three times a week is fine as long as you clean his face, neck, hands, and diaper area daily"  TextColor="Black" FontSize="Small"/>
+            <Label Padding="10"  Text="* Right after takina a bath babies like to feed. You can wrap a dry towel around your baby after drying off and then feed right away with skin-to-skin contact"  TextColor="Black" FontSize="Small"/>
+            <Label Padding="10"  Text="* Completely empty the tub immediately after each use - a baby can drown in as little as 1 inch of water"  TextColor="Black" FontSize="Small"/>
+            <Label Padding="10"  Text="* Learn infant CPR. And never leave your baby alone in a bathtub or in the care of another child, even for half a minute."  TextColor="Black" FontSize="Small"/>
+
+
+            <Label Text=" This information is not intended to replace the advice of a trained medical doctor." />
+
+
+            <Label Text=" Philips Consumer Lifestyle B.V. disclaims any liability for the decisions you make based on this information,"/>
+            <Label Text=" which is provided to you on a general information basis only and not as a substitute for personalized medical advice."/>
+            <Label Text="All contents copyright O Philips Consumer Lifestyle B.V. 2023. All rights reserved"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage.Content>
+</ContentPage>

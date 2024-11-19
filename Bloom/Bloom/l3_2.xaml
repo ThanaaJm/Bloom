@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l3_2">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p11" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="Reading is encouraging language development" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="Reading continues to be one of the most important ways you can help build your baby's brain and encourage their language development." TextColor="Black"/>
+                <Label Text="Your baby is able to concentrate longer and interact more with what you're reading. Use different voices when narrating, make your facial expressions match the happenings of the story, stop and ask your baby questions, point out interesting or funny illustrations." TextColor="Black"/>
+                <Label Text="Books with textures in the illustrations create an interactive activity, and those with lift-flaps or pop-ups are fun at this age. Consider creating a photo album for your baby with pictures of people in your family." TextColor="Black"/>
+                <Label Text="Your baby is paying close attention to what you do when you read. Consider running your finger over the words as you read them, so baby begins to associate the shapes on the page with the words you're saying. Teach your baby how to turn the pages - but don't be surprised if the books occasionally make it to baby's mouth (especially if they are teething!)." TextColor="Black"/>
+                <Label Text="Consider searching for cloth or vinyl books that can take a little more of this exploration." TextColor="Black"/>
+                <Label Text="Board books are sturdier than books with paper pages. Keep them in a basket or on a low shelf so that baby can play with and manipulate them. Experts believe this is one of the best ways to help your baby become a child who enjoys reading." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

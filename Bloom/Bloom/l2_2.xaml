@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l2_2">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p7" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="When to start talking to your baby and why" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="At first you won't get much conversation back,but you should start talking often to your paby from birth. You baby's greatest brair growth happens in the first 3 years of life - with as many as 700 synapses or connections between neurons occurring every second in these years. Talking to your baby can improve these connections (especially in the language centers of the brain). You're setting the stage for improved learning and thinking throughout their formative years." TextColor="Black"/>
+                <Label Text="As your baby grows, the conversations get more interactive. Your baby will begin to communicate by crying, but will eventually start to coo and make small sounds to get your attention or in response to your voice." TextColor="Black"/>
+                <Label Text="Label everything out loud and narrate your everyday activities Now we're going into the kitchen. We're going to open the cupboard and grab a glass. l'm going to fillit with water because I'm thirsty. Here's the sink. Can you hear the water? And on and on through your whole day together. You may feel silly at first, but the constant talk will become second-nature once you start doing it all the time. When baby starts to look at something point to it and tell them what it is." TextColor="Black"/>
+                <Label Text="Once your baby begins making more sounds, give them the chance to add to the conversation. You say something to them,they coo or make sounds at you, you imitate these and say 'hmm . that's interesting. ..tell me more.' Be sure to pause, listen, laugh, make eye contact, speak slowly." TextColor="Black"/>
+                <Label Text="Read to your baby - even when they're very young. This teaches baby not only new vocabulary, but crucial listening skills, too. Read the text but also describe the images pointing out what you see and pausing to let baby look." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

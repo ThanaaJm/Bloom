@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l3_1">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p20" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="Rolling a ball" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="kids and balls just seem to go together. At first, your baby willjust want to put the ball in their mouth or pass it from hand to hand. Then, they will enjoy you rolling it to them and encouraging them to roll it back." TextColor="Black"/>
+                <Label Text="The continuous movement of a ball will hold your baby's attention. Playing with them will help to build balance and coordination. But balls also allow babies to learn about cause and effect. If I roll this away from me what happens? If I roll it down this slope what happens? If I try to roll it back up, what happens?" TextColor="Black"/>
+                <Label Text="Over and over" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Spend some time outside rolling a ball back and forth. This may seem a tad boring and repetitive to you, but repetition is how babies learn. Judith Wright, a literacy specialist with the Ontario Early Years Centres in London says, A baby needs 1,000 repetitions to learn a word; by the time they are a toddler, they might need 50 repetitions; and when they are in kindergarten, they may need only a few repetitions to master it because the brain connections have been laid out. Repetitive play works in just the same way." TextColor="Black"/>
+                <Label Text="Mix it up" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Choose balls in a variety of sizes for different skill development - it takes a different skill set to throw two-handed as opposed to the one-handed throw with a smaller ball. Add balls of different textures and firmness making sure they are not too heavy). Keep some balls on-hand that can be used indoors too." TextColor="Black"/>
+                <Label Text="As your baby grows, they will learn that palls go beyond just rolling. They willearr to drop, roll, bounce, toss and kick a ball. Their hand-eye coordination (or foot-eye coordination) will improve over time. Before you know it, they will be throwing the ball and chasing after it." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

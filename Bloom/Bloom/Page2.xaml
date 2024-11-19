@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.Page2">
+        <ContentPage.Content>
+            <ScrollView>
+                <StackLayout>
+                    <Label Text= "Babycare basics" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"
+                           VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <Image Source="f2" Aspect="AspectFill" HeightRequest="200" WidthRequest="150"/>
+                    <Label  Padding="10" Text="Caring for your newborn is wonderful, exhausting and full of emotion. Here we'll give vou tips on how to survive the first week and beyond as you make your way into motherhood."
+                            TextColor="Black" FontSize="Small"/>
+
+                    <Label Text= "Skin" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                    <Label  Padding="10" Text="Your baby's skin is incredibly sensitive. The first weeks after birth you might notice baby acne and dry spots. Once a day inspect your baby from top to bottom. Check his neck folds, behind the ears and under the arms and the testicles. Often some dirt or dead skin cells accumulate in skin folds, leading to candida if not cleaned"
+                            TextColor="Black" FontSize="Small" />
+
+                    <Label Text= "Nowborn genitals" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                    <Label  Padding="10" Text="You may notice that your newborn's genitals are swollen and red. This is normal in the first few weeks as a result of exposure to hormones during pregnancy. If these symptoms don't clear up after the first six weeks, mention them to your pediatrician at the next checkup."
+              TextColor="Black" FontSize="Small"/>
+
+                    <Label Text= "Circumcised penis" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                    <Label  Padding="10" Text="To care for a newly circumcised penis, simply keep the skin clean with soap an dwater as part of normal bathing. For both circumcised and uncircumcised baby boys, it's best to skip bubble baths, which can be drying and irritating to penile tissue. For the first few davs after a circumcision, the penis may look a little irritated" 
+                            TextColor="Black" FontSize="Small"/>
+
+
+                    <Label Text= "Uncircumcised (intact) penis " TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                    <Label  Padding="10" Text="When cleaning or bathing an uncircumcised baby boy, don't try to retract the foreskin or clean under it. Clean the outside of the penis just as you would any other body part. Depending on your baby, it takes weeks, months, or years for the foreskin t separate from the penis and become retractable. In the meantime, don't force it." 
+                            TextColor="Black" FontSize="Small"/>
+                    <Label Text="Please note:"/>
+
+                    <Label Text=" This information is not intended to replace the advice of a trained medical doctor." />
+
+
+                    <Label Text=" Philips Consumer Lifestyle B.V. disclaims any liability for the decisions you make based on this information,"/>
+                    <Label Text=" which is provided to you on a general information basis only and not as a substitute for personalized medical advice."/>
+                    <Label Text="All contents copyright O Philips Consumer Lifestyle B.V. 2023. All rights reserved"/>
+
+                </StackLayout>
+            </ScrollView>
+        </ContentPage.Content>
+    </ContentPage>

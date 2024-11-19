@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l5_1">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p17" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="Finding a rhythm" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="Your active toddler is able to recognize around 200 words and should be able to make two-or three-word sentences. Now that they are able to start expressing themselves more easily verbally, you can experiment with their creative side and let them express themselves through song. If you are not confident in your own musical aptitude, that is fine. You don't heed to have perfect pitch or sing in tune ta encourage a love of music in your toddler." TextColor="Black"/>
+                <Label Text="Encourage participation" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Choose a song that you have sung with your toddler regularly before - then stop midway through a verse and let them finish it. Try replacing a word and see if they catch - and correct - you." TextColor="Black"/>
+                <Label Text="Share concerts" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Take your little one to music events in your community. This might be folk singers at the local park or a music ensemble at your local school or university. You don't necessarily want to expose them to front row seats at a rock concert but sharing live music especially if there is room for your toddler to dance - will expose them to different rhythms and sounds. It will also help them connect making music with the sounds created." TextColor="Black"/>
+                <Label Text="Listen to music with and without the lyrics" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="The early years of your child's life provide the prime opportunity to expose your little one to music of different genres and from different cultures. Keep in mind music changes mood,too. Having a crazy day? Choose a calming tune from your playlist." TextColor="Black"/>
+                <Label Text="Learn through song" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="You can teach your toddler counting, colors,pody parts, animals and objects all with song You can make up your own silly songs or find children's music to meet your needs. From the Alphabet Song to Head, Shoulders, Knees and Toes, you will find all sorts of ideas online." TextColor="Black"/>
+                <Label Text="Teach your toddler to repeat songs" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="These songs have lines where your toddler simply repeats after you, sometimes with added movements. This allows your little one to develop their listening skills as well as gain confidence in singing." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

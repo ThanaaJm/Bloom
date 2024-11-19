@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l1_3">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p3" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="How and when to start with tummy time" TextColor="#09DEF9" FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Label Text="Tummy time involves short periods each day with your baby lying on their tummy. Not only does the world look different from this angle but tummy time can improve baby's growth and development." TextColor="Black"/>
+                <Label Text="Always supervise tummy time and be sure to place your baby on their back to sleep. To begin, you could try placing your baby on your own tummy, or lying them on a blanket on the floor for 30 seconds at a time. You may find your baby will be more comfortable in the beginning if you get down to their eye level and play with them. Make sure you wait for 30minutes after a feed so your little one's belly isn't too full." TextColor="Black"/>
+                <Label Text="placed on their stomachs, babies will naturally develop strong neck, shoulder, core and head muscles - all prerequisites for milestones such as rolling, sitting, crawling and pushing up to stand." TextColor="Black"/>
+                <Label Text="Work your way up to three 5-minute sessions each day for your 2 month old. By age 3 or 4months, your baby will be strong enough to lift their chest off the floor, and by 4 months they may be able to roll over. When your babys able to roll themselves from tummy to back and to tummy again (usually around 6months), you don't need to set aside specific tummy time." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

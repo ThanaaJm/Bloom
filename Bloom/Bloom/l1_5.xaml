@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l1_5">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p5" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="Start tummy time early" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="Spending some time on their tummy each day will help to develop your newborn's head,neck and upper body muscles. Building these muscles is a precursor to sitting, rolling,crawling and more. You can start tummy time in your baby's first days of life." TextColor="Black"/>
+                <Label Text="Some babies resist being placed on their tummies - so go slow. Start with a few minutes at a time and increase the duration slowly as your baby tolerates it more. Place them on your stomach or chest while you are awake and reclining or lying flat. This close contact is relaxing for you both and might ease them into tummy time. You can also try burping them while they are flat across your lap." TextColor="Black"/>
+                <Label Text="Only do tummy time when both you and your paby are fully-awake and alert, and you are able to stay with them and watch them." TextColor="Black"/>
+                <Label Text="Make it playful" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Tummy time doesn't need to be boring Hold a colorful toy just out of reach. Place a baby-proof mirror opposite their face (to the side or flat on the floor). Get down on the floor with your baby and talk or sing. Place your baby on blankets or towels with different textures. Use tummy time when you are drying your baby after a bath. You could apply lotion or practice gentle infant massage while your baby is on their tummy." TextColor="Black"/>
+                <Label Text="Be sure to always supervise your newborn during tummy time and end the session when your baby starts to fuss. Remember to always place them on their back to sleep." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

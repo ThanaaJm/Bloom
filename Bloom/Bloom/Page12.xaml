@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.Page12">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text= "Choking hazards" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"
+             VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                <Image Source="f15" Aspect="AspectFill" HeightRequest="200" WidthRequest="150"/>
+
+                <Label Padding="10"  Text="Another big concern with little ones is choking. Not only have they not yet fully developed the ability to safely swallow, but they are also prone to exploring the world around them with their mouths -which means picking up anything they come across and attempting to eat it.  " 
+                       TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text=" You would not believe how many frantic phone calls doctors' offices and hospitals get from parents who have discovered foreian objects in their infants' diapers. Things like coins, rocks and other small items vou generally wouldn't want your baby to swallow. You should work to keep toys with small pieces out of reach, as well as any other small items that might be considered a choke hazard. As a general rule of thumb, if your little one could fully fit something in their mouth - they probably shouldn't be allowed to plav with it. "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label  Padding="10" Text="The good news is, once those items make it out in the diaper - you can generally assume they have been passed safely (unless they have sharp edges, in which case - consult your pediatrician). It's the items that don't have that uneventful passage you have to worry more about. As well as those that could hurt your baby from inside - like button batteries. "
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text="You know what we're talking about, right? The little round batteries that may be in your watch. These lithium batteries are the perfect size for little ones to swallow, and while they look innocent enough - they can actually cause quite a bit of damage inside, even resulting in death. So keep those batteries up and out of reach, and take vour child to the hospital immediately if you suspect they have swallowed one. " 
+                        TextColor="Black" FontSize="Small"/>
+
+
+
+                <Label Text="Please note:"/>
+
+                <Label Text=" This information is not intended to replace the advice of a trained medical doctor." />
+
+
+                <Label Text=" Philips Consumer Lifestyle B.V. disclaims any liability for the decisions you make based on this information,"/>
+                <Label Text=" which is provided to you on a general information basis only and not as a substitute for personalized medical advice."/>
+                <Label Text="All contents copyright O Philips Consumer Lifestyle B.V. 2023. All rights reserved"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

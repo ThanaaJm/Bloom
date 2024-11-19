@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l3_3">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p12" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="Conversations with your baby" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="Those coos and gurgles of the early months are disappearing, and your baby is now making more syllables that you can recognize as word sounds, even though the baby is not using them for their intended meaning Respond to these 'nonsense syllables' and create a back-and-forth conversation with your baby. No need for 'baby talk' - just speak as you would to anyone. Reply, ask questions always give baby time to respond, teaching them the art of listening and speaking." TextColor="Black"/>
+                <Label Text="Narrate your day. Tell your baby what you're doing, where you're going, what you see, what you hear. Label everything with words. Use simple sentences and specific language. By age 12 months, your baby may begin saying simple words, such as 'ma-ma' or 'da-da, and can usually communicate with gestures (pointing to objects or shaking their head)." TextColor="Black"/>
+                <Label Text="Even if your baby isn't saying much of anything, they often understand a great deal of what's said to them. They can respond to simple commands and usually understand what 'no' means. If you say 'where is the cat?', they will look or move toward the item in question. They are learning that certair words mean particular objects, even if they cannot say those words yet. Sometimes a baby's word for an object is just a nonsense sound that they always associate with it. Be sure when you respond to this word, you say it correctly. For example, if your baby says 'buh, you can respond by saying Yes, here is the ball' as you hand them the toy." TextColor="Black"/>
+                <Label Text="Every baby develops differently. Some may have two or three words by their first birthday, but many just babble streams of sounds. If you have any concerns about your baby's language development, be sure to let their doctor know." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

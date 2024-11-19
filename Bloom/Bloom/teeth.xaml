@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.teeth"  BarBackgroundColor="White" UnselectedTabColor="LightGray" 
+            SelectedTabColor="#22C3E6" >
+    
+    <ContentPage  IconImageSource="six.png">
+        <ScrollView>
+            
+            <StackLayout Padding="4">
+                <Label Margin="10"/>
+                <Label Text="Central incisor 6-10 months" HorizontalOptions="Center" TextColor="#22C3E6" 
+                       FontAttributes="Bold" FontSize="20"/>
+                <Image Source="a.jpeg" BackgroundColor="White"/>
+
+                
+                <Label TextColor="#22C3E6"  FontSize="20" 
+                       Text="Teething begins.Your baby's gums may be swollen and red where the teeth are coming through, and your little one may have other teething symptoms. The two middle teeth on the bottom (lower central incisors) are usually the first to erupt, often at about the same time."/>
+                
+                <Label HorizontalOptions="Center" TextColor="Red" FontAttributes="Bold"  FontSize="15" 
+                       Text="Fast fact: Girls usually get their teeth before boys do"/>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage>
+
+    
+    <ContentPage  IconImageSource="eit.png">
+
+        <ScrollView>
+            <StackLayout Padding="4">
+                <Label Margin="10"/>
+                <Label Text="Central incisor 8-12 months" HorizontalOptions="Center" TextColor="#22C3E6" 
+                       FontAttributes="Bold" FontSize="20"/>
+                <Image Source="b.jpeg" BackgroundColor="White"/>
+
+
+                <Label TextColor="#22C3E6"  FontSize="20" Text="Upper middle teeth (the upper central incisors) emerge."/>
+                
+                <Label HorizontalOptions="Center" TextColor="Red" FontAttributes="Bold" FontSize="15" 
+                       Text="Fast fact: Baby teeth, or primary teeth, have wavy edges that smooth out with use"/>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage>
+
+    
+    <ContentPage  IconImageSource="nin.png">
+
+        <ScrollView>
+            <StackLayout Padding="4">
+                <Label Margin="10"/>
+                <Label Text="Lateral incisor 9-13 months" HorizontalOptions="Center" TextColor="#22C3E6" 
+                       FontAttributes="Bold" FontSize="20"/>
+                <Image Source="c.jpeg" BackgroundColor="White"/>
+
+
+                <Label TextColor="#22C3E6"  FontSize="20" 
+                       Text="Top teeth right next to the middle teeth (lateral incisors) appear, giving your baby a row of what look like four little Tic Tacs."/>
+
+                <Label HorizontalOptions="Center" TextColor="Red" FontAttributes="Bold" FontSize="15" 
+                       Text="Fast fact:Teeth usually emerge in pairs – one on the right and one on the left"/>
+                <Label/>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage>
+
+    
+    <ContentPage  IconImageSource="ten.png">
+
+        <ScrollView>
+            <StackLayout Padding="4">
+                <Label Margin="10"/>
+                <Label Text="Lateral incisor 10-16 months" HorizontalOptions="Center" TextColor="#22C3E6" 
+                       FontAttributes="Bold" FontSize="20"/>
+                <Image Source="d.jpeg" BackgroundColor="White"/>
+
+
+                <Label TextColor="#22C3E6"  FontSize="20" Text="The lateral incisors appear on the bottom. Now your baby can flash quite the toothy smile.."/>
+                
+                <Label HorizontalOptions="Center" TextColor="Red" FontAttributes="Bold" FontSize="15" 
+                       Text="Fast fact: Baby teeth hold space for permanent teeth developing under the gums"/>
+                <Label/>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage>
+
+    
+    <ContentPage  IconImageSource="therty.png">
+
+        <ScrollView>
+            <StackLayout Padding="4">
+                <Label Margin="10"/>
+                <Label Text="First molar 13-19 months" HorizontalOptions="Center" TextColor="#22C3E6" 
+                       FontAttributes="Bold" FontSize="20"/>
+                <Image Source="e.jpeg" BackgroundColor="White"/>
+
+
+                <Label TextColor="#22C3E6"  FontSize="20" 
+                       Text="Your child's first molars – the wider teeth toward the back of the mouth – erupt on the top. They won't have much to do until the ones on the bottom show up."/>
+                
+                <Label HorizontalOptions="Center" TextColor="Red" FontAttributes="Bold" FontSize="15" 
+                       Text="ast fact: Baby teeth are whiter and smaller than permanent teeth"/>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage>
+
+    
+    <ContentPage  IconImageSource="forty.png">
+
+        <ScrollView>
+            <StackLayout Padding="4">
+                <Label Margin="10"/>
+                <Label Text="First molar 14-18 months" HorizontalOptions="Center" TextColor="#22C3E6" 
+                       FontAttributes="Bold" FontSize="20"/>
+                <Image Source="f.jpeg" BackgroundColor="White"/>
+
+
+                <Label TextColor="#22C3E6"  FontSize="20" 
+                       Text="The companion molars on the bottom emerge. Now your toddler can really do some serious chewing."/>
+                <Label HorizontalOptions="Center" TextColor="Red" FontAttributes="Bold" FontSize="15" 
+                       Text="Fast fact: Sometimes the first molars on the top and bottom will erupt on one side before they erupt on the other side."/>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage>
+
+    
+    <ContentPage  IconImageSource="sixty.png">
+
+        <ScrollView>
+            <StackLayout Padding="4">
+                <Label Margin="10"/>
+                <Label Text="Canine/cuspid 16-22 months" HorizontalOptions="Center" TextColor="#22C3E6" 
+                       FontAttributes="Bold" FontSize="20"/>
+                <Image Source="i.jpeg" BackgroundColor="White"/>
+
+
+                <Label TextColor="#22C3E6"  FontSize="20" 
+                       Text="Also called a cuspid, the upper canine fills the gap between the incisors and first molars."/>
+                
+                <Label HorizontalOptions="Center" TextColor="Red" FontAttributes="Bold" FontSize="15" 
+                       Text=" Fast fact: These teeth are sometimes called dog teeth"/>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage>
+
+    
+    <ContentPage  IconImageSource="sven.png">
+
+        <ScrollView>
+            <StackLayout Padding="4">
+                <Label Margin="10"/>
+                <Label Text="Canine/cuspid 17-23 months" HorizontalOptions="Center" TextColor="#22C3E6" 
+                       FontAttributes="Bold" FontSize="20"/>
+                <Image Source="j.jpeg" BackgroundColor="White"/>
+
+
+                <Label TextColor="#22C3E6"  FontSize="20" Text=" The lower cuspids appear."/>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage>
+
+    
+    <ContentPage  IconImageSource="twnty.png">
+
+        <ScrollView>
+            <StackLayout Padding="4">
+                <Label Margin="10"/>
+                <Label Text="Second molar 23-31 months" HorizontalOptions="Center" TextColor="#22C3E6" 
+                       FontAttributes="Bold" FontSize="20"/>
+                <Image Source="o.jpeg" BackgroundColor="White"/>
+
+
+                <Label TextColor="#22C3E6"  FontSize="20" 
+                       Text="The second molars, or very back teeth, emerge on the bottom."/>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage>
+
+    <ContentPage IconImageSource="five.jpeg">
+        <ScrollView>
+            <StackLayout Padding="4">
+                <Label Margin="10"/>
+                <Label Text="Second molar 25-33 months" HorizontalOptions="Center" TextColor="#22C3E6" FontAttributes="Bold" FontSize="20"/>
+                <Image Source="o.jpeg" BackgroundColor="White"/>
+
+
+                <Label TextColor="#22C3E6"  FontSize="20" Text="The final teeth – the rear molars on the top – work their way in. By age 3, most kids have a full set of 20 baby teeth and can give you a brilliant grin."/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    </TabbedPage>

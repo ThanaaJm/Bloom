@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.Page4">
+<ContentPage.Content>
+    <ScrollView>
+        <StackLayout>
+            <Label Text= "Hush little baby, don't you cry" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"
+                   VerticalOptions="Center" HorizontalOptions="Center"/>
+
+            <Image Source="f4" Aspect="AspectFill" HeightRequest="200" WidthRequest="150"/>
+
+            <Label Padding="10"  Text="Everyone loves a newborn, right? They are soft, sweet and cuddly, and they just smell so, so good. Newborns are like fairy dust. They instantly lift vour spirits and make vou believe in miracles."
+                   TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text=" Or at least, that's what you're supposed to say, right? "
+                  TextColor="Black" FontSize="Small" />
+
+            <Label  Padding="10" Text="The truth is, newborns can absolutely be all those things - and at various points in time they absolutely will be. But they will also be hard work. And a little bit exhausting. And sometimes, they will cry for hours on end and you'll be left feeling frazzled and tired and totally unsure of whether or not you are even kind of qualified to handle this whole parenting gig."
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text="Because newborns don't do much, besides eat. poop, sleep and cry. And when you only have a handful of things you're good at, they each tend to get a fair amount of plav. Which means that for as many sweet cuddles as you get, there will also be plenty of tears to work through." 
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text="But why? And how can you help your little one to work through those bouts of crying, when you're feeling pretty close to tears yourself? "
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text=" Why do babies cry?" FontAttributes="Bold"
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text="Imagine that vou had no way to communicate with those around you. You were in a new world, surrounded by people who seemed to love and care for vou, but who didn't speak your language and couldn't always understand what you were thinking or feeling. Then imagine that you were completely reliant upon those people to fulfill your every need - incapable of feeding yourself, or doing much else for that matter. What would you do to express yourself whenever you had needs that weren't being met? "
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text="Well, you would probably cry, of course. "
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text=" And that's what babies do. They cry for any number of reasons that have to do with them wanting and needing something. For instance. your baby may be crying because he:"
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text="Is hungry , Wants to be held , Is feeling tired or over-stimulated , Is bored , Has a wet diaper , Got too hot or too cold , Just wants a cuddle "
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text="For each of those potential sources of tears, there is something vou and/or vour partner can do. And as you become more comfortable in your role as a parent, you will also get better about distinquishing the real reason for that crvina. You'll learn to pay attention to vour schedule and to know that if a certain number of hours have passed since your little one last ate -hunger is probably the source of those tears. Similarly, you'll learn to check the diaper first when crying begins. You'll pick up on those cues, and before you know it, your baby will be using those tears to communicate with you. "
+                    TextColor="Black" FontSize="Small"/>
+            <Label  Padding="10" Text=" To let you know that he needs something "
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text=" Of course, there are also sometimes tears that have no explanation at all. Particularly in the first 4 months of life, there will occasionally be periods of crying that don't seem to have a solution. That's because. they don't. Sometimes babies just cry. Just like you sometimes have bad days, your baby may experience times of increased sensitivity or sadness. He might also be gassy, or teething. or just plain not feeling well. And other times, they may iust want to cry. "
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text=" So know that even if you can't identify a specific reason your baby is crying, it doesn't mean you are doing anything wrong. Sometimes... babies just cry "
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text="However, if your baby is crying more than usual, or if his cry is high-pitched, contact your doctor. You know your baby's pattern better than anyone else, so if you notice anything unusual like a weak cry or moan, a different pattern of crying, or if it looks as if your baby is in pain, don't hesitate to contact your doctor. A sudden shrill cry followed by a brief silence and then more crying may also indicate pain "
+                    TextColor="Black" FontSize="Small"/>
+
+
+            <Label Text="Please note:"/>
+            <Label Text=" This information is not intended to replace the advice of a trained medical doctor." />
+
+
+            <Label Text=" Philips Consumer Lifestyle B.V. disclaims any liability for the decisions you make based on this information,"/>
+            <Label Text=" which is provided to you on a general information basis only and not as a substitute for personalized medical advice."/>
+            <Label Text="All contents copyright O Philips Consumer Lifestyle B.V. 2023. All rights reserved"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.MainPage" BackgroundImageSource="background.png" Opacity="0.9">
+
+    <StackLayout Margin="20,40,20,0" Spacing="20">
+        <Label Margin="120,0,0,0"  FontSize="22" FontAttributes="Italic" TextColor="#22C3E5"
+        Text="Hand to hand." />
+
+        <Label Margin="30,0,0,0"  FontSize="19" FontAttributes="Italic" TextColor="Black"
+                Text="BLOOM guides you through your kid's Blooming journey" />
+
+        <Image Source="Bloomicon.png" HeightRequest="80" Opacity="0.9"/>
+        
+        <Label Margin="20,0,20,0" FontSize="19" Opacity="1" Text="Welcome to BLOOM"  TextColor="Black" 
+               VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="None"/>
+        
+        <StackLayout Margin="50,0,50,0" >
+            
+            <Button  HeightRequest="50"
+                 BorderWidth="3" Opacity="0.9" BackgroundColor="#22C3E5" CornerRadius="30"
+                Text="Click here to start" FontSize="15" FontAttributes="Bold" TextColor="White" 
+                Clicked="Mainpage" />
+            
+        </StackLayout>
+        
+</StackLayout>
+
+    
+</ContentPage>

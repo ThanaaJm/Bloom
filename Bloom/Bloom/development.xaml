@@ -1,0 +1,2010 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.development" BarBackgroundColor="White" UnselectedTabColor="LightGray" 
+             SelectedTabColor="#22C3E7">
+
+    <ContentPage Title="WEEK"  IconImageSource="i1.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b1.2.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your newborn in week 1"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Congratulations on the birth of your baby!
+                       While you went through a lot in order to give birth, your little one did too.
+                       Being born is the first big change in your baby's life and during the first week it's all about adjusting to a strange new world.
+                       This can mean getting used to the five senses (touch, sight, sound, taste and smell) as well as getting used to taking in food and oxygen in a new way."
+                   Margin="9"/>
+
+                <Label Text="Respiratory system"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby will cough and sneeze out amniotic fluid for the first hours in order to clean out the lungs."
+                   Margin="9"/>
+
+                <Label Text="Digestive system"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Be on the lookout for some digestion changes in the first week, such as the release of meconium, which is the first stool that babies have.
+                       It's black and sticky and will transition into a more light-yellow-fluid stool once the intestines are fully working."
+                   Margin="9"/>
+
+                <Label Text="Weight"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="All babies will lose about 10% of their birth weight within the first days after birth so make sure you keep your precious one skin to skin with you and feed often.
+                       Babies usually return to their birth weight around day 10 of their life."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby's eye sight will not be fully developed yet - the best distance to see you is the so called breastfeeding-distance which is when you hold your baby in your arms.
+                       You'll notice that your baby will slowly imitate funny faces that you make within a few days."
+                    Margin="9"/>
+
+                <Label Text="Cord"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby's cord will heal, but at first the area will be a bit red, bloody or have a yellowish tint to it.
+                       The stump will dry and fall off once it's healed underneath."
+                   Margin="9"/>
+
+                <Label Text="Genitals"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="The genitals can look a little bit swollen or red due to the birth.
+                       This will go away after a few days.
+                       Baby girls may have a period a few days after birth to release hormones that they received from the womb.
+                       Your baby will also release brick-dust urine which looks like red dots in the diaper.
+                       This is also normal hormonal balancing after birth." 
+                       Margin="9"/>
+
+                <Label Text="Skin"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby may develop jaundice and turn a little yellow within the first days after birth.
+                       This yellow skin color is a leftover product from the liver working to lower the bilirubin in the blood.
+                       Keep your baby skin to skin, expose her to lots of daylight (not sunlight) and feed a lot in order to help your baby to lower the bilirubin level on her own.
+                       And don't forget to mention the jaundice to your pediatrician so they can observe your baby closely."
+                   Margin="9"/>
+
+                <Label Text="Sleep"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby will sleep between 15 and 18 hours in a 24 hour period. When your baby sleeps you should try to sleep as well since your normal sleep pattern will be disrupted."
+                   Margin="9"/>
+
+                <Label Text="Mood"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="The first week is all about getting to know your baby and recovering from childbirth.
+                       You might experience some self-doubt and nervousness as the reality of the situation (parenthood!) sets in. Feelings from love to anxiety, and from happiness to exhaustion, are totally normal.
+                       It's called the baby blues and usually lasts 2 weeks. Remember to be patient with yourself and practice gratitude whenever possible."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="WEEK" IconImageSource="i2.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b2.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b2.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your newborn in week 2"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Woo-hoo! You made it through the first week with your newborn! The first week is usually the hardest. You both are figuring out your new role as parents, so be patient with yourself and your partner. By now your baby is more stable and your body is recovering and feeling stronger."
+                   Margin="9"/>
+                <Label Text="Your baby will show a bit more personality by now. You might notice that she tends to be sleepy while feeding, impatient when changing the diaper, or loves to listen to Daddy's voice. At this time babies are moving in and out of several different states from sleepiness to quiet alertness to active alertness."
+                   Margin="9"/>
+
+                <Label Text="Weight"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby will have reached her birth weight and started gaining more. This means you might feed more often or longer. Make sure you rest with your baby in between feedings so you have enough energy to take care of your precious one."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby will react to you and usually loves to be held, kissed and carried. Your baby will hear your voice and turn her head towards you once you speak. For some reason Dad's voice can be especially soothing. All babies love music and rhythm so include that in your daily routine. You might notice that whenever you put your baby down to sleep, she starts to cry. This is normal since babies don't know you are still around when they don't smell or feel you."
+                   Margin="9"/>
+
+                <Label Text="Cord"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="The cord will be dryer or already have fallen off. Keep the area dry so it heals well."
+                   Margin="9"/>
+
+                <Label Text="Skin"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Many babies develop acne or dry skin after birth. This is a normal hormonal change and reaction to being outside of the womb. It can take days or months for baby acne to go"
+                   Margin="9"/>
+
+                <Label Text="Crying"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="By week two, your baby may be crying more.She might be colicky or overwhelmed from new encounters like a new sound, person or smell. Especially in the evening babies develop cluster-feeding and are fussy.Feed often if necessary and keep your baby close to you in a calm environment."
+                   Margin="9"/>
+                <Label Text="If your baby cries a lot right after being fed she could be colicky. You might see your baby extending or pulling up her legs or passing gas. Sometimes the face turns red from passing a bowel movement. Thankfully, colic doesn't last forever and usually it goes away by three months."
+                   Margin="9"/>
+
+                <Label Text="Mobility"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby already can hold her head better than a week before. You might also notice they grab your finger when their hand is stronger. When you put them on their belly they may make crawling movements.Babies grow really fast so take lots of pictures of those amazing changes!"
+                   Margin="9"/>
+                <Label Text="Most importantly, your baby may start showing angel smiles. These blissful smiles happen unconsciously during their sleep or after feedings when they are in a milk coma. Your baby will suddenly smile for a few seconds which will make you the happiest parents in the world! These smiles will happen more and more over the next few weeks and usually by week 6 your baby will honestly smile at you and be happy to see you."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+
+
+
+
+    <ContentPage Title="WEEK" IconImageSource="i3.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b3.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b3.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your newborn in week 3"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Hurray, you made it through the first two weeks as a parent! By now you will probably feel more secure with your little one and your baby-blues should have diminished. Your hormones are stabilizing, but if you still feel overly emotional, cry a lot or can't sleep, make sure you have a lot of support around you."
+                   Margin="9"/>
+                <Label Text="Your baby is now in the Fourth trimester and you might encounter a bit more crying.
+Babies cry more after about 2 weeks since they are more alert and crying is the only way (for them) to communicate their needs.
+As a parent it can be stressful, but there is a lot you can do in order to help your baby to better transition into this new world."
+                   Margin="9"/>
+                <Label Text="Wear your baby. Get a sling that you and your baby like and make sure your baby is snug towards your body and facing inward.
+This re-creates a womb-like feeling for your little one and crying-peaks will be much less intense."
+                   Margin="9"/>
+                <Label Text="Skin-to-skin contact continues to be very beneficial for both parents and baby. Your baby's blood-sugar, breathing and circulation will stabilize and they will latch on better when they've been skin-to-skin before feedings. Both moms and dads relax when their baby is on the chest and this calms your baby down as well."
+                   Margin="9"/>
+                <Label Text="Give your baby a bath. By now the umbilical cord most likely fell off and it's time for your baby's first bath. Soothing water surrounding your baby creates an environment similar to what she was used to in the womb."
+                   Margin="9"/>
+                <Label Text="Swaddling your baby with a breathable wrap is another way to create a sense of security that was felt in the womb, resulting in a more settled baby who cries less and sleeps better. Make sure you don't wrap your baby too tightly (this has been linked to hip dysplasia) but let your baby's legs be a bit more loose in the swaddle."
+                   Margin="9"/>
+                <Label Text="Breastfeed your baby whenever she wants.
+Newborn babies feed often, because they will be working to establish supply and refilling their fast-emptying, tiny tummy."
+                   Margin="9"/>
+                <Label Text="Move your baby. Babies like to be pushed around in a stroller, rocked or bounced in a crib or carried in a sling. This buoyant and fluid type of movement reminds them of the womb."
+                   Margin="9"/>
+                <Label Text="Find some white noise your baby might like since they are used to hearing the sounds of the womb. There were digestion noises, your heartbeat, sounds from the outer world and blood rushing by. If you re-create a balanced noise-level it will help your baby to calm down. You can use a CD with heartbeat-sounds, ocean waves, soft music or your vacuum cleaner, and of course the Lullabies and White Noise tools available in this app."
+                   Margin="9"/>
+                <Label Text="Simulating womb-like experiences for your baby at this time is a great way to soothe and ease them into the world, and can be relaxing for you too."
+                   Margin="9"/>
+                <Label Text="If you are a new dad, you might wonder where you fit in? If you look at the above suggestions you can see that there is not much you can do, besides wearing your baby and getting to know her, and communicating with your partner. Listen to your partner, help her recover from birth and don't get worried if she is still in a baby-blues phase.
+Remember to listen to yourself too and discover what works and what doesn't in your new life."
+                   Margin="9"/>
+
+
+                <Label Text=""
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="WEEK" IconImageSource="i4.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b4.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b4.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your newborn in week 4"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby is nearly one month old! Soon you will have to entertain your little one. Right now though it's still all about feeding and sleeping."
+                   Margin="9"/>
+
+                <Label Text="Feeding pattern"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="You might notice more of a pattern starting to form around feeding. Your baby will probably still require cluster-feeding at night when she needs a lot of feeding in order to have enough for the next day. But you are also able to tell whether your baby is hungry, needs a diaper change or has colic. You can try to feed a little longer in the evenings now so you can catch more sleep during the night."
+                   Margin="9"/>
+
+                <Label Text="Cord"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="The cord should have healed by now. You will see your baby's convex belly button, but during the next months the belly button will change again and probably get sucked in."
+                   Margin="9"/>
+
+                <Label Text="Mobility"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby will move more often and is stronger. You might notice that your little one can hold her head much better when you burp and that the finger grip is stronger.
+Some babies are also able to roll to their side when you put them down for a nap. Make sure you don't put anything else in the crib that could get in front of your baby's face."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="This will be the joy of your lifetime - your baby's first smile! Between 3 and 4 weeks babies start smiling wide at their parents which will pay you back for all the sleepless nights."
+                   Margin="9"/>
+
+                <Label Text="Skin"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="You might notice that your precious one's fingernails are getting long - you can trim them very carefully with a rasp. Make sure you watch your baby's fingers closely while doing it. Newborn's finger nails are very soft and you can easily hurt a little finger. If you notice your baby is scratching herself in the face despite shorter nails you can put on a onesie with long sleeves and pull the sleeves over the hands or get little baby gloves for the same purpose."
+                   Margin="9"/>
+                <Label Text="Babies have very soft skin. If you give a daily baby bath make sure your little one's skin can handle it. Sometimes the skin gets very dry - in that case, bathe your baby once or twice a week only. The right temperature for a newborn bath is body temperature. The best way to find out whether the temperature is right is to feel it with your wrist rather than your hand. Your hand is much more used to temperature changes and you might think the water is too cool when in fact it's just right. Prepare a (warm) towel close by that you can put your baby in once you take her out of the tub. Right after taking a bath babies like to feed. You can wrap a dry towel around your baby after drying off and then feed right away with skin-to-skin contact."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+
+
+
+
+
+    <ContentPage Title="WEEK" IconImageSource="i5.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b5.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b5.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your newborn in week 5"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Congratulations, your baby is one month old now! How are you feeling? You might say I am tired, I am happy or I can't believe it's already one month! Above all, give yourself a pat on the back and tell yourself how proud you are for handling all the duties of a new mom and coping with all of these changes.
+Being a new mom or dad is not always easy."
+                   Margin="9"/>
+                <Label Text="Are you still getting enough support? Having a 4-week-old is demanding since your little one wants more entertainment now. You might notice when you put your baby down to sleep after a feeding that your baby is looking around and taking in the environment more. That means more active time with your baby and possibly less sleep. Try to not squeeze in too many daily tasks while you are in your new mommy role. Delegate household tasks to other family members, get professional help or ask friends to help out."
+                   Margin="9"/>
+
+
+                <Label Text="Postpartum depression"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Postpartum depression hits about 1 out of 7 new moms. Signs of postpartum depression include sadness, feeling overwhelmed, being overly tired or not tired at all, feeling imbalanced and generally not happy. Most often this is a hormonal situation in your body that needs to get evaluated and treated by a healthcare professional. PPD is still an illness that many don't talk about, but looking at the numbers we know it happens to a lot of new moms - and even dads! If you are feeling balanced, happy and just more tired than usual, great! If you are feeling blue, don't be ashamed. The important thing is to talk to someone about it. If you notice that your partner is not the same person anymore don't hesitate to talk to your healthcare provider."
+                   Margin="9"/>
+                <Label Text="Some tips for you to stay calm and relaxed:"
+                   Margin="9"/>
+                <Label Text="• Create rituals with your baby: Babies love rituals since it makes them feel safe and helps in their development. The ritual could be to change your little one into a sleeping sack at night, sing a lullaby when changing her diaper, massage your baby every morning or a give her a baby bath every night. If Daddy (or your baby-rearing partner) always baths your baby, this brings an added layer of ritual. Encouraging your partner to be involved in this kind of activity helps pull them into the daily routine."/>
+                <Label Margin="5" Text="• Sleep when your baby sleeps: Make sure you are still watching your sleep.
+Take a nap during the day when your baby sleeps and keep the lights dimmed when you feed your baby at night. This will show your little one that there is nothing interesting going on and she can go right back to sleep after the feeding."/>
+                <Label Margin="5" Text="• Use the 5 S's to calm down your baby:
+Put your swaddled baby in your arms on its side against your belly while giving your finger to suckle on. Then you sway back and forth while shushing rhythmically in your baby's ear. After a few minutes your baby will calm down."/>
+                <Label Margin="5" Text="• Treat yourself: What could help you regain your energy and body? Whether it's a yoga class, a walk in the park, a massage or good cup of coffee with a friend. Get out and do something for yourself or your relationship with your partner. Becoming parents is a big change and it's important to stay connected to each other and the outside world."/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+ 
+    <ContentPage Title="WEEK" IconImageSource="i6.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b6.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b6.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your newborn in week 6"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="At week 6 your baby is not only smiling but wanting to play. At this age babies will really enjoy some toys or a baby bridge they can gaze at to keep them fascinated. Whether it's a sibling playing with them, finger games, a blanket with different textures, a swim class or a baby play group, stimulation of the right amount is well received. Dad (or your partner) might want to have baby bonding time. Take advantage and rest up while they are connecting and having fun!"
+                   Margin="9"/>
+
+                <Label Text="Welcome to the crying peak!"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Usually at 6 weeks babies have a crying peak. Nobody really knows what causes this, but many ask is it tummy troubles? and the answer is a definite maybe. When nothing you do seems to soothe your baby's crying, it can feel as if your I love you, baby is met with a screeching wail that suggests the sentiment is not reciprocated. If you are not sure whether your baby has world pain or is actually colicky here is a colic crying checklist:"
+                   Margin="9"/>
+                <Label Margin="5" Text="• Get a doctor's exam: Get a thorough exam to make sure there is nothing physically causing pain."/>
+                <Label Margin="5" Text="• Sleep times: Watch the clock as well as your baby's sleepy cues. Colicky babies can be difficult to read and are more sensitive to sleep needs."/>
+                <Label Margin="5" Text="• Rhythm and sound: Go back to the 5
+S's we learned about last week.
+Soothing your baby with these can help to calm her down."/>
+                <Label Margin="5" Text="• Listen: Once you have figured out the timetable for your baby's crying spells you can soothe her beforehand. Reduce stimuli, swaddle or introduce white noise before the time that your baby usually starts crying."/>
+                <Label Margin="5" Text="• Feeding: Feed your baby in an upright position, and keep the head elevated for 15 minutes after each feeding to reduce discomfort from acid reflux. Some degree of acid reflux is common."/>
+                <Label Margin="5" Text="•Mentally prepare: If your baby does have intense crying spells, go in knowing that it's not your fault. In fact, it's not even a reaction to you. Your little one is just having a hard time and letting you and anyone else within earshot) know about it!"/>
+                <Label Margin="5" Text="• Positions to relieve gas: There are some positions that babies who are colicky or cry a lot usually like. Try cradling your baby on her belly in your arms so your underarm is creating some pressure against the belly. Or you can try to massage your baby's belly gently clockwise around the navel. Moving the legs up and down can also help to relief gas. Or sit down with your legs closed and put your crying bundle of joy in your lap facing you. Your baby's legs push in your belly, you wrap your arms around your baby's body and your hands around your baby's head. Get very close and talk gently to your baby."/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="While crying can sometimes frazzle a new parent's nerves or cause them to ask What did I do, what can I do? knowing that this is a natural phase in your baby's growth helps to make it go more smoothly. This too shall pass, and before you know it they'll be asking to borrow the car keys. Take it all in, crying and all, while you can."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+
+    <ContentPage Title="WEEK" IconImageSource="i7.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b7.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b7.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your newborn in week 7"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="The world is a laboratory for your baby to understand life. You might notice your baby watching things more at 7 weeks and there may even be periods of quiet where she is taking it all in. You can feel free to talk to your baby and describe things even though she cannot yet understand you."
+                   Margin="9"/>
+                <Label Text="It's time to begin considering a baby carrier and the proper way to carry your little one.
+There are so many options and you may want to try a few with your baby to see which one she likes. The main question always is: Do I carry my baby in or out? The answer is: always carry your baby facing in. Here are 7 reasons to not carry your baby facing out:"
+                   Margin="9"/>
+                <Label Margin="5" Text="1. Babies like to nap. When a baby falls asleep on the parent while being carried on your chest, it will have the beneficial opportunity of sleeping with its head gently turned to one side or the other.
+This will also allow for cuddle time.
+Leaning against the parent also stimulates a huge amount of neurological integration and development for the baby."/>
+                <Label Margin="5" Text="2. You might notice that when you pick up your baby, she will instinctively draw the legs into a squat/straddle position. The best position for your baby's legs in a carrier are when the knees are up above the developing hips and your baby is in a squatting posture. If you put your little one in an outward-facing-carrier, her legs dangle down. This is not only unsupportive of normal hip development, it may have negative effects."/>
+                <Label Margin="5" Text="3. Your back will hurt when you have your baby face out. You will notice that you need to shift your hips in order to balance your little one with dangling legs out. The reason is that you put strain on your spine. In order to stay aligned make sure to turn your baby facing inward."/>
+                <Label Margin="5" Text="4. If your baby faces outward you constantly need to hold your baby's legs up or the feet. Your baby will grasp your fingers because it's off-balance in this position and they have nothing to hold on to. At the same time your little one will lean it's pelvis back (while you shift your hips forward) for balance. This is unhealthy for hip development and adds stress to the spine and nervous system."/>
+                <Label Margin="5" Text="5. Your baby wants to bond with you. If your little one faces outward there is no familiar face or filter. Your baby won't feel very safe because she can't see you. Facing outward deprives babies of their natural, innate need for security and communication."/>
+                <Label Margin="5" Text="6. When your baby is facing inward it is easy for your baby to have a quick snack on your breast while you are out and about carrying. This is impossible for an outward-facing carrier."/>
+                <Label Margin="5" Text="7. There will be too much pressure placed on your baby's spinal curves when facing outward. A newborn only has one curve in the spine, the second one will develop over the next years. Right now it's a c curve and during the next few months baby will first develop the curve in the head/neck area when starting to lift its head while lying down or starting to crawl. Next the lower back curve develops when your little one becomes stronger and crawls longer. If you carry your baby outward, the natural c curve is forced into a reversed position before it has gone through the normal developmental stages it needs."/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+
+
+
+    <ContentPage Title="WEEK" IconImageSource="i8.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b8.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b8.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your newborn in week 8"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Congratulations on your 2-month-old baby!
+Your little one has probably added 40-50% to her birth weight and is smiling at you when you enter the room. At this age, your baby's brain has grown by 5cm and is all brain, meaning that many of the nutrients you are feeding her are being used to create new brain cells, allowing her to continue learning new things at a very rapid rate. Your baby is starting to see colors and patterns. Your baby may also be experimenting more with her vocal chords and making new sounds."
+                   Margin="9"/>
+
+                <Label Text="Brain"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby is really starting to notice her surroundings now and takes an active interest in this exciting new world. You might notice that your little one stares fixedly at everyone who is not you. Baby can tell that person is different from you and is busy working it all out. Your baby may begin showing more interest in toys that have more complicated textures, patterns or colors.
+Make sure you have plenty of interesting things for them to see, touch and feel. You might also try exposing them to different kinds of music and notice their reaction.
+What is their favorite?"
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Besides the smiling, your baby will react to your grimaces by smiling more or imitating them. Remember to make eye contact, big expressions and to sing or talk to your baby to keep your connection and their brain growing."
+                   Margin="9"/>
+
+                <Label Text="Movement"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="At this age babies kick, wave, ride bikes with their legs and grab toys that are hanging above them. When you carry your baby make sure to hold on tightly since your baby is really strong now and kicks against you. The head is still wobbly but you can do more tummy-time while watching your precious one which allows the neck muscles to grow even stronger. Soon you will notice that your baby will be able to move the head from left to right. Nearly all babies of this age will flail their arms and legs at people and objects that they want to play with. Reaching and grasping is right around the corner! With so many possibilities for movement, it is very important to never leave babies unattended in places that are not perfectly safe. Never leave a young baby on an adult bed, couch, or high surface. You won't believe how far they can move, even before they learn to roll or crawl."
+                   Margin="9"/>
+
+                <Label Text="Nursing and feeding"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="By now, your baby will show clear signs that they can predict what will happen during feeding, naptime and socializing. When you latch on, you might notice kicks into your belly because your baby is so excited to get onto the breast. Maybe your little one also likes the diaper change, so make sure to keep it fun by singing to, playing with or massaging her belly while changing the diaper."
+                   Margin="9"/>
+                <Label Text="It is normal for your baby to swallow air and pass more gas, but excessive gas can make both you and your baby miserable. If you are breastfeeding, make sure your baby's lips form a tight seal far back on your areola. You may want to try covering your baby's face with a thin cloth so she doesn't get distracted while feeding."
+                   Margin="9"/>
+                <Label Text="If you are bottle feeding, make sure your baby's lips fasten on the wide base of the nipple, not just the tip. Feed your baby smaller volumes of food more frequently."
+                   Margin="9"/>
+                <Label Text="Generally burp your baby at least once during a feeding and then after a feeding.
+After feeding you can also try massaging your little one's abdomen in a clockwise direction around the belly button. You can always ask your healthcare provider if there are gas drops that you could use."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+ 
+    <ContentPage Title="MONTH" IconImageSource="i2.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b9.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b9.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your 2 month old baby"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby is past the newborn phase, and you may be feeling more relaxed about caring for your darling. You and your partner are probably learning about your baby's likes and dislikes. While there is still a lot to learn, you may be starting to feel more confident in your parenting skills."
+                   Margin="9"/>
+
+                <Label Text="Social and Emotional Development"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="You may not think a lot is going on as far as social development, but it is. As you love your baby and respond to her cries, you're building her trust, which helps her social and emotional development."
+                   Margin="9"/>
+                <Label Text="Your baby still needs lots of cuddles and skin-to-skin contact, so enjoy quiet time together when you can. Research indicates that babies need touch in order to thrive. So all those cuddles are actually helping your baby's development."
+                   Margin="9"/>
+                <Label Text="Her emotional development also includes her ability to self-soothe, which she does by sucking. 2 month old babies have a strong sucking reflex. Your baby may like to suck on a pacifier, her fist or a finger."
+                   Margin="9"/>
+                <Label Text="Most babies this age also start following objects with their eyes. At two months, your baby's vision is not as sharp as an adult's, but it is improving."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="At two months, your little one is still mostly communicating by crying. But you may start to notice subtle differences in her cries, which helps you determine what she needs.
+You may also start to hear some cooing, which is your baby's way of talking to you."
+                   Margin="9"/>
+                <Label Text="One exciting developmental milestone you may see this month is your baby's first real smile. Although the timing can be different, most babies flash a toothless grin by about two months."
+                   Margin="9"/>
+
+                <Label Text="Motor Skills"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Compared to last month, your baby's movements are becoming less jerky and more fluid. She is still not super coordinated.
+But she is getting stronger. By this age, your baby may be able to hold her head a bit steadier."
+                   Margin="9"/>
+                <Label Text="While most 2 month olds are not coordinated enough to play with toys just yet, your little one may pat at an object in front of her, such as a toy hanging from her car seat. You might also notice she is doing a lot more kicking when she is lying down, which strengthens her little legs."
+                   Margin="9"/>
+
+                <Label Text="Eating"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="At two months, your baby's nutrition comes exclusively from breast milk or formula.
+Although it can vary, many babies this age are still eating every three to four hours."
+                   Margin="9"/>
+                <Label Text="If you're formula feeding and your baby gets frequent watery poos or a skin rash, it could be a sensitivity to milk protein. Talk to your baby's doctor to determine if you need to switch formulas."
+                   Margin="9"/>
+
+                <Label Text="Sleeping"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby's sleep patterns have not fully developed, and she may not be on a schedule yet. She may also not have her days and nights figured out. But you can help her learn the difference between daytime and night time. Keep rooms bright in the day and engage your baby in activities, such as playing and reading. At bedtime, keep lights low and do soothing activities, such as a bath and cuddles."
+                   Margin="9"/>
+                <Label Text="If you're still waking every few hours to feed your baby, hang in there. Your little one is getting closer to sleeping for longer stretches at night."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+
+    <ContentPage Title="MONTH" IconImageSource="i3.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b10.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b10.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your 3 month old baby"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby is three months' old, and you're probably starting to get the hang of this parenting thing. You may have settled into a schedule, or your routine may vary from day to day. Either way, your 3 month old has changed from a tiny newborn to an active infant."
+                   Margin="9"/>
+
+                <Label Text="Social and Emotional Development"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="One cool thing you may notice is your baby is starting to figure out who's who. While you can't expect your little one to say mama or dada just yet, your baby may be showing signs of parental recognition. For example, when your baby sees you, she may kick her legs with excitement or smile at the sound of your voice."
+                   Margin="9"/>
+                <Label Text="Not only is your baby's brain developing rapidly, her senses are also becoming more active. For example, you may notice your baby turns her head towards sounds. Your 3 month old also thrives on touch, so continue to spend a lot of time snuggling and cuddling. Partners, you should also make time for skin to skin contact."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby has been communicating since day one by crying. You have probably figured out what type of cry means what. By the time your baby is three months' old, you may notice she is also trying to communicate by cooing and making other sounds."
+                   Margin="9"/>
+                <Label Text="Although you probably already know your baby is a genius, research indicates talking to your little one can increase their I.Q. even more. So keep singing, reading and talking to your baby as much as possible. It's good for their brain development."
+                   Margin="9"/>
+
+                <Label Text="Motor Skills"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="In addition to learning more about the world around them, your 3 month old's motor skills and eye-hand coordination are also developing more. Those adorable kicks may be getting a bit more coordinated and stronger."
+                   Margin="9"/>
+                <Label Text="Your baby may also be gaining more upper body strength. There may be very little head wobbling at this point. Also don't be surprised if your baby starts swiping at things placed in front of her. Your little one is learning to do new things each day, such as opening and closing her hands and bringing her hands to her mouth."
+                   Margin="9"/>
+
+                <Label Text="Eating"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your 3 month old's menu is still limited to formula or breastmilk. Although you should always follow the advice of your paediatrician, most doctors don't advise starting solids this early. If you're breastfeeding and have not introduced a bottle yet, you may want to consider pumping, which allows others to take over some of the feedings. Partners, you may feel there is not much you can do to help with feedings if your partner is nursing."
+                   Margin="9"/>
+                <Label Text="But you can still get involved. For example, you can take over burping duty and put your little one back to bed after late night feedings."
+                   Margin="9"/>
+
+                <Label Text="Sleeping"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Most 3 month old babies sleep for about 15 hours a day, which includes their naps and night time sleep. Although your baby may not exactly be sleeping through the night yet, she may be starting to sleep for longer stretches at night."
+                   Margin="9"/>
+                <Label Text="But if you're still getting up every couple of hours, hang in there. As your baby's nervous system continues to develop, and her stomach can handle more milk, she will sleep for longer periods at night. If you have not started a bedtime routine, now may be a good time to try one."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+
+
+    <ContentPage Title="MONTH" IconImageSource="i4.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b11.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b11.2.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your 4 month old baby"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Just when you thought your baby could not get any more adorable, she somehow does.
+At four months, your baby is learning more about herself and also becoming pretty fascinated with the world around her."
+                   Margin="9"/>
+
+                <Label Text="Social and Emotional Development"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby is likely becoming more social.
+You may notice she copies some facial expressions, such as frowning or smiling.
+She is probably enjoying playing more and may even start to cry when playtime stops."
+                   Margin="9"/>
+                <Label Text="if you have not already introduced music, now may be a good time to give it a shot.
+Some research indicates music helps babies with theirintellectual and social development.
+Consider a baby class, or just sing to your little one. But even with all the social development going on, your baby still needs quiet time. Make sure you allow plenty of time for quiet snuggles."
+                   Margin="9"/>
+
+                <Label Text="Motor Skills and Senses"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your 4 month old is also getting stronger.
+You will probably notice good head control and she may even be able to roll over from her tummy to her back. To help your little one, make sure you're giving your baby plenty of tummy time. Tummy time helps babies develop head, shoulder and neck strength along with promoting certain motor skills."
+                   Margin="9"/>
+                <Label Text="All your baby's senses are becoming more developed. For example, she may be more interested in touching objects and be fascinated with different textures. Those crinkly and fuzzy baby toys you have will come in handy to help your baby learn more about touch."
+                   Margin="9"/>
+                <Label Text="It's also pretty common for 4 month olds to start realizing how their hands work. Your baby may be grabbing at everything including your hair and earrings, so be prepared! You may also notice, your baby is putting everything she finds in her mouth.
+While this is also how babies learn about the world around them, be sure you don't leave any small items around, which could be a choking hazard."
+                   Margin="9"/>
+
+                <Label Text="Eating"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="By four months old, your baby may have doubled her birth weight. Some parents choose to introduce solids, such as cereal at around four months. But before you do, it's best to talk to your baby's pediatrician.
+There are both pros and cons to starting babies on solids this early."
+                   Margin="9"/>
+                <Label Text="Although it can vary, some babies may start to get their teeth by four months. You may notice your baby gnawing at her fist, drooling or becoming more irritable at times.
+Refrigerated teethers or topical medication may help. Talk to your baby's doctor about what's best."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Along with increased babbling, your mini-me may even be trying to imitate sounds you and your partner make. So keep talking to your baby about the world around you.
+Hearing the sounds letters make is good for his language development. You probably are seeing even more smiles and coos from your baby as she gets older. She may also be starting to connect that you and others respond to her actions."
+                   Margin="9"/>
+
+                <Label Text="Sleeping"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Some 4 month olds may be sleeping for six or seven hours straight at night, which helps you or your partner get the rest you both need. If you add in a couple of naps, your baby is probably sleeping for a total of about 15 or 16 hours a day."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="MONTH" IconImageSource="i2.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b9.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b9.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your 2 month old baby"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby is past the newborn phase, and you may be feeling more relaxed about caring for your darling. You and your partner are probably learning about your baby's likes and dislikes. While there is still a lot to learn, you may be starting to feel more confident in your parenting skills."
+                   Margin="9"/>
+
+                <Label Text="Social and Emotional Development"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="You may not think a lot is going on as far as social development, but it is. As you love your baby and respond to her cries, you're building her trust, which helps her social and emotional development."
+                   Margin="9"/>
+                <Label Text="Your baby still needs lots of cuddles and skin-to-skin contact, so enjoy quiet time together when you can. Research indicates that babies need touch in order to thrive. So all those cuddles are actually helping your baby's development."
+                   Margin="9"/>
+                <Label Text="Her emotional development also includes her ability to self-soothe, which she does by sucking. 2 month old babies have a strong sucking reflex. Your baby may like to suck on a pacifier, her fist or a finger."
+                   Margin="9"/>
+                <Label Text="Most babies this age also start following objects with their eyes. At two months, your baby's vision is not as sharp as an adult's, but it is improving."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="At two months, your little one is still mostly communicating by crying. But you may start to notice subtle differences in her cries, which helps you determine what she needs.
+You may also start to hear some cooing, which is your baby's way of talking to you."
+                   Margin="9"/>
+                <Label Text="One exciting developmental milestone you may see this month is your baby's first real smile. Although the timing can be different, most babies flash a toothless grin by about two months."
+                   Margin="9"/>
+
+                <Label Text="Motor Skills"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Compared to last month, your baby's movements are becoming less jerky and more fluid. She is still not super coordinated.
+But she is getting stronger. By this age, your baby may be able to hold her head a bit steadier."
+                   Margin="9"/>
+                <Label Text="While most 2 month olds are not coordinated enough to play with toys just yet, your little one may pat at an object in front of her, such as a toy hanging from her car seat. You might also notice she is doing a lot more kicking when she is lying down, which strengthens her little legs."
+                   Margin="9"/>
+
+                <Label Text="Eating"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="At two months, your baby's nutrition comes exclusively from breast milk or formula.
+Although it can vary, many babies this age are still eating every three to four hours."
+                   Margin="9"/>
+                <Label Text="If you're formula feeding and your baby gets frequent watery poos or a skin rash, it could be a sensitivity to milk protein. Talk to your baby's doctor to determine if you need to switch formulas."
+                   Margin="9"/>
+
+                <Label Text="Sleeping"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby's sleep patterns have not fully developed, and she may not be on a schedule yet. She may also not have her days and nights figured out. But you can help her learn the difference between daytime and night time. Keep rooms bright in the day and engage your baby in activities, such as playing and reading. At bedtime, keep lights low and do soothing activities, such as a bath and cuddles."
+                   Margin="9"/>
+                <Label Text="If you're still waking every few hours to feed your baby, hang in there. Your little one is getting closer to sleeping for longer stretches at night."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+
+    <ContentPage Title="MONTH" IconImageSource="i3.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b10.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b10.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your 3 month old baby"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby is three months' old, and you're probably starting to get the hang of this parenting thing. You may have settled into a schedule, or your routine may vary from day to day. Either way, your 3 month old has changed from a tiny newborn to an active infant."
+                   Margin="9"/>
+
+                <Label Text="Social and Emotional Development"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="One cool thing you may notice is your baby is starting to figure out who's who. While you can't expect your little one to say mama or dada just yet, your baby may be showing signs of parental recognition. For example, when your baby sees you, she may kick her legs with excitement or smile at the sound of your voice."
+                   Margin="9"/>
+                <Label Text="Not only is your baby's brain developing rapidly, her senses are also becoming more active. For example, you may notice your baby turns her head towards sounds. Your 3 month old also thrives on touch, so continue to spend a lot of time snuggling and cuddling. Partners, you should also make time for skin to skin contact."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby has been communicating since day one by crying. You have probably figured out what type of cry means what. By the time your baby is three months' old, you may notice she is also trying to communicate by cooing and making other sounds."
+                   Margin="9"/>
+                <Label Text="Although you probably already know your baby is a genius, research indicates talking to your little one can increase their I.Q. even more. So keep singing, reading and talking to your baby as much as possible. It's good for their brain development."
+                   Margin="9"/>
+
+                <Label Text="Motor Skills"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="In addition to learning more about the world around them, your 3 month old's motor skills and eye-hand coordination are also developing more. Those adorable kicks may be getting a bit more coordinated and stronger."
+                   Margin="9"/>
+                <Label Text="Your baby may also be gaining more upper body strength. There may be very little head wobbling at this point. Also don't be surprised if your baby starts swiping at things placed in front of her. Your little one is learning to do new things each day, such as opening and closing her hands and bringing her hands to her mouth."
+                   Margin="9"/>
+
+                <Label Text="Eating"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your 3 month old's menu is still limited to formula or breastmilk. Although you should always follow the advice of your paediatrician, most doctors don't advise starting solids this early. If you're breastfeeding and have not introduced a bottle yet, you may want to consider pumping, which allows others to take over some of the feedings. Partners, you may feel there is not much you can do to help with feedings if your partner is nursing."
+                   Margin="9"/>
+                <Label Text="But you can still get involved. For example, you can take over burping duty and put your little one back to bed after late night feedings."
+                   Margin="9"/>
+
+                <Label Text="Sleeping"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Most 3 month old babies sleep for about 15 hours a day, which includes their naps and night time sleep. Although your baby may not exactly be sleeping through the night yet, she may be starting to sleep for longer stretches at night."
+                   Margin="9"/>
+                <Label Text="But if you're still getting up every couple of hours, hang in there. As your baby's nervous system continues to develop, and her stomach can handle more milk, she will sleep for longer periods at night. If you have not started a bedtime routine, now may be a good time to try one."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+
+
+    <ContentPage Title="MONTH" IconImageSource="i4.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b11.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b11.2.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your 4 month old baby"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Just when you thought your baby could not get any more adorable, she somehow does.
+At four months, your baby is learning more about herself and also becoming pretty fascinated with the world around her."
+                   Margin="9"/>
+
+                <Label Text="Social and Emotional Development"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby is likely becoming more social.
+You may notice she copies some facial expressions, such as frowning or smiling.
+She is probably enjoying playing more and may even start to cry when playtime stops."
+                   Margin="9"/>
+                <Label Text="if you have not already introduced music, now may be a good time to give it a shot.
+Some research indicates music helps babies with theirintellectual and social development.
+Consider a baby class, or just sing to your little one. But even with all the social development going on, your baby still needs quiet time. Make sure you allow plenty of time for quiet snuggles."
+                   Margin="9"/>
+
+                <Label Text="Motor Skills and Senses"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your 4 month old is also getting stronger.
+You will probably notice good head control and she may even be able to roll over from her tummy to her back. To help your little one, make sure you're giving your baby plenty of tummy time. Tummy time helps babies develop head, shoulder and neck strength along with promoting certain motor skills."
+                   Margin="9"/>
+                <Label Text="All your baby's senses are becoming more developed. For example, she may be more interested in touching objects and be fascinated with different textures. Those crinkly and fuzzy baby toys you have will come in handy to help your baby learn more about touch."
+                   Margin="9"/>
+                <Label Text="It's also pretty common for 4 month olds to start realizing how their hands work. Your baby may be grabbing at everything including your hair and earrings, so be prepared! You may also notice, your baby is putting everything she finds in her mouth.
+While this is also how babies learn about the world around them, be sure you don't leave any small items around, which could be a choking hazard."
+                   Margin="9"/>
+
+                <Label Text="Eating"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="By four months old, your baby may have doubled her birth weight. Some parents choose to introduce solids, such as cereal at around four months. But before you do, it's best to talk to your baby's pediatrician.
+There are both pros and cons to starting babies on solids this early."
+                   Margin="9"/>
+                <Label Text="Although it can vary, some babies may start to get their teeth by four months. You may notice your baby gnawing at her fist, drooling or becoming more irritable at times.
+Refrigerated teethers or topical medication may help. Talk to your baby's doctor about what's best."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Along with increased babbling, your mini-me may even be trying to imitate sounds you and your partner make. So keep talking to your baby about the world around you.
+Hearing the sounds letters make is good for his language development. You probably are seeing even more smiles and coos from your baby as she gets older. She may also be starting to connect that you and others respond to her actions."
+                   Margin="9"/>
+
+                <Label Text="Sleeping"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Some 4 month olds may be sleeping for six or seven hours straight at night, which helps you or your partner get the rest you both need. If you add in a couple of naps, your baby is probably sleeping for a total of about 15 or 16 hours a day."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="MONTH" IconImageSource="i5.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b12.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b12.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your 5 month old baby"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="By five months old, your baby is certainly showing more personality. He may be crying less and babbling more. He is also probably becoming more interested in playing. Lots of other fun changes are taking place during the fifth month."
+                   Margin="9"/>
+
+                <Label Text="Social and Emotional Development"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="You may have noticed, your baby's sense of humor is developing more. She's starting to get the joke. For instance, she may laugh when you make silly faces or use a goofy voice. Continue to encourage those adorable giggles with silly chatter. It helps your baby's social development."
+                   Margin="9"/>
+                <Label Text="Along with a sense of humor, your baby may be showing a wider range of emotions, such as anger and happiness. She may express those varied emotions by grunting when she is mad or squealing when she is happy."
+                   Margin="9"/>
+                <Label Text="You and your partner can help your baby's social and emotional development by just doing what you do. Every time you respond to a cry, play or cuddle your baby, you're helping her feel safe and loved."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="By five months, you may have noticed your baby is honing her senses. For example, her vision is improving. She can probably see objects far and near without crossing her eyes. Your baby may also turn towards sounds."
+                   Margin="9"/>
+                <Label Text="Although your 5 month old has not assigned meaning to words just yet, she may be repeating one syllable, such as ma. She may also have discovered she can make different sounds, such as raspberries or blowing bubbles. You can help your baby's language development by continuing to talk about the world around you."
+                   Margin="9"/>
+
+                <Label Text="Motor Skills and Senses"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Babies also learn about the world through touch and taste. By now, everything is going into your baby's mouth, so make sure you wash toys often."
+                   Margin="9"/>
+                <Label Text="You can stimulate your baby's senses by venturing out different places. Take your little one to the supermarket, park or the zoo."
+                   Margin="9"/>
+                <Label Text="Your 5 month old is probably not crawling yet, but she may be working towards it.
+When she rolls over onto her belly, she may move her legs as if she was trying to scoot."
+                   Margin="9"/>
+                <Label Text="Some 5 month olds can sit up unsupported for short periods of time. But it's a good idea to help your little one master sitting by propping her up with pillows in case she topples over."
+                   Margin="9"/>
+
+                <Label Text="Eating"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby still needs breastmilk or formula as her primary source of nutrition. If you are consider starting solids, talk to your pediatrician to determine if your baby is ready."
+                   Margin="9"/>
+                <Label Text="Keep in mind, there is not a specific month you should start on solids, so don't feel rushed. One sign your baby may be ready for solids is a loss of the tongue thrust reflex.
+This reflex helps with breast or bottle-feeding, but not solids. The reflex often goes away by five or six months."
+                   Margin="9"/>
+
+                <Label Text="Sleeping"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="If last month, your baby was still getting up every three or four hours at night, by five months you may notice things are getting better in the sleep department. Your baby may be sleeping for 11 to 12 hours at night, although not straight through. Still, you're likely getting longer stretches of sleep at night. Although it varies, you can also expect your 5 month old to take two to three naps a
+day."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+
+
+    <ContentPage Title="MONTH" IconImageSource="i6.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b13.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b13.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your 6 month old baby"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="may be hard to believe your baby is already six months old. You'll probably see a lot of developmental milestones this month.
+But it's also important for moms and dads to understand, each baby is a unique individual and may do things at their own pace. If you're concerned about something, don't hesitate talking to your pediatrician."
+                   Margin="9"/>
+
+                <Label Text="Social and Emotional Development"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your 6 month old may be quite the social butterfly. She is probably charming everyone she meets and may enjoy the interaction and attention she gets from others. You may also be discovering what type of temperament your baby has."
+                   Margin="9"/>
+                <Label Text="Although it can vary, babies may start to develop separation anxiety as early as six months. Separation anxiety is a normal developmental milestone. It's a sign your baby is attaching to you, your partner and other caregivers. Keep in mind, being around people other than you and your partner is good for your baby's development. Just be patient and ease your baby into situations with new caregivers."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your budding conversationalist may be learning new ways to talk every day. She may make different sounds, such as yelling and squealing. She may also be putting together vowels and consonants to make new sounds. All this experimenting is not only cute, but it's your baby's way of learning how to talk."
+                   Margin="9"/>
+
+                <Label Text="Motor Skills"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Babies this age may be sitting up unsupported. Your baby may also be able to scoot a bit when she is on her tummy. In fact, she may even be commando crawling on her tummy. But don't worry if she is not starting to crawl just yet. For now she may be content to just watch the world around
+her."
+                   Margin="9"/>
+                <Label Text="Putting an object on the floor just out of her reach is one way to encourage your little one to work on those crawling skills. If you have not baby proofed your house, now is a good time, since your 6 month old is becoming more mobile."
+                   Margin="9"/>
+                <Label Text="Your baby's fine motor skills are also improving. She may be able to pick up smaller objects with her fingers. She may also be able to transfer obiects from one hand to another. Continue to give your baby a variety of toys that encourage the development of fine motor skills. Toys with vibrant colors and different textures encourage your baby to practice her grabbing skills. Just be sure there are no choking hazards since your baby likes to chomp on everything she finds."
+                   Margin="9"/>
+
+                <Label Text="Eating"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby may also be able to hold her own bottle. But don't prop a bottle up and leave your little one. The liquid can pool in her mouth, which can lead to choking."
+                   Margin="9"/>
+                <Label Text="By six months, your baby's appetite is growing. If you have not started solids, you may want to give it a try this month. Usually, your baby's doctors will advise you to start with rice cereal, which is easy to digest. You may also want to try pureed foods, such as sweet potatoes, carrots and bananas.
+Introduce solids slowly, starting with a couple of teaspoons."
+                   Margin="9"/>
+
+                <Label Text="Sleeping"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Although all babies are different, your 6 month old may be sleeping at night for a total of about 14 hours with stretches as long as six to eight hours. She still also needs a couple of naps a day. Keep in mind, if your baby has not started teething, it may start soon, which can interfere with sleep."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+
+
+    <ContentPage Title="MONTH" IconImageSource="i7.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b14.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b14.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your 7 month old baby"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="At seven months, your baby may be excited about all she is learning to do. You may also be fascinated by her antics, which often keep you laughing. It's a fun time for baby and mom and dad!"
+                   Margin="9"/>
+
+                <Label Text="Social and Emotional Development"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Up until now, your little one may have thought objects are gone forever if they are out of sight. But your 7 month old is starting to understand the concept of obiect permanence. This developmental milestone indicates your baby understands that when an object is out of sight it still exists.
+Understanding this concept creates more opportunities for games, such as peek-a-boo. Keep playing because not only does your baby enjoy games, they help her with her overall development."
+                   Margin="9"/>
+
+                <Label Text="Communication and Language
+Development"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your 7 month old is not only learning more ways to use her voice, but she is also starting to understand certain words. For example, if you or Dad says no, she may understand what it means. But don't be surprised if she does not always follow that command. She may also recognize her name."
+                   Margin="9"/>
+                <Label Text="Babies this age are also getting to be pretty good at nonverbal communication. For instance, your baby can make a lot of facial expressions from big grins to big frowns. She may also wave bye-bye and even blow."
+                   Margin="9"/>
+
+                <Label Text="Motor Skills"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="7 month olds are often on the move, and may be creative about how they get around. Your baby may crawl, scoot, roll or combine different types of movements. Keep in mind, some babies go straight from commando crawling to walking and skip crawling on their hands and knees."
+                   Margin="9"/>
+                <Label Text="Consider holding your baby under her arms and allow her to stand upright, putting some weight on her legs. She's probably still pretty wobbly, so don't let go. But putting weight on her legs can strengthen muscles and get her ready for walking."
+                   Margin="9"/>
+                <Label Text="You may notice, your 7 month old is starting to grasp things using her first finger and thumb. This is called the pincher reflex, and it means your little one is developing better fine motor skills."
+                   Margin="9"/>
+
+                <Label Text="Eating"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="By seven months, you may be feeding your baby solid food. So how much should you be feeding her? Just like grown-ups, babies eat different amounts. Your 7 month old may be eating about seven or eight ounces of solids spread out over two or three meals."
+                   Margin="9"/>
+                <Label Text="Most babies can self-regulate and will show signs they have had enough. For instance, your baby may close her mouth, turn her head away from the spoon or spit the food out. Follow your baby's cues and don't force,
+just one more bite."
+                   Margin="9"/>
+                <Label Text="Although teething patterns vary from baby to baby, many 7 month olds will have a few teeth by now. Dentists recommend gently brushing your baby's teeth with water and a soft baby toothbrush."
+                   Margin="9"/>
+
+                <Label Text="Sleeping"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="You may get lucky, and your baby may be sleeping for as much as 11 hours straight at night. Also, babies still need a few naps during the day, which add another three or four hours sleep to the total. If your baby is still waking up many times throughout the night, talk with your pediatrician."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+
+
+    <ContentPage Title="MONTH" IconImageSource="i8.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b15.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b15.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your 8 month old baby"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby is getting bigger and stronger all the time. She knows the difference between strangers and familiar faces, which may mean separation anxiety is a bit stronger."
+                   Margin="9"/>
+                <Label Text="Babies this age often show more signs of affection than they did when they were young infants. For instance, it may make your heart melt when your baby stretches out her arms for you to pick her up or wraps her little arms around your neck."
+                   Margin="9"/>
+
+                <Label Text="Social and Emotional Development"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Many 8 month olds are learning to imitate moods. For example, if she sees another baby cry or yell, she may follow suit. She is also learning more about cause and effect.
+This and better control over her hands may mean throwing or dropping toys is her new favorite hobby."
+                   Margin="9"/>
+                <Label Text="Babies this age also enjoy exploring objects by doing a variety of things, such as banging or shaking them. Be sure to give your baby different toys to play with."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your little one's communication skills are continuing to develop. Your baby is still making lots of different sounds and you may even hear a ma-ma. Although Dad, you probably heard a distinct da-da."
+                   Margin="9"/>
+                <Label Text="Your baby may also start to get an idea of what she likes and dislikes. For example, she may have a favorite toy and let you know she is not too happy about you taking it away."
+                   Margin="9"/>
+
+                <Label Text="Motor Skills"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="At eight months, your baby may be getting pretty good at crawling and getting around.
+She may also be able to pull herself up to a standing position and stand supported."
+                   Margin="9"/>
+                <Label Text="Some babies also start cruising at eight months. Cruising involves taking little, sliding steps while holding on to whatever she can for support. It's natural to try to protect your baby from getting hurt when she gets wobbly and tumbles. But by letting your baby try to stand up and take a step, you're building her strength and confidence."
+                   Margin="9"/>
+                <Label Text="Try to remember, all babies are different.
+Avoid comparing your little one to your friend's baby. If you or your partner are concerned about how your baby is developing, talk to your baby's pediatrician."
+                   Margin="9"/>
+
+                <Label Text="Eating"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="By eight months, your baby may be a pro at handling pureed foods and may be ready for chunkier foods. Expand her menu by adding new foods that require a little more chewing.
+If you are breastfeeding and wondering when to wean, do what works for you. You can breastfeed for as long as you want to.
+Although it can vary, some babies are so excited over solid food, they show less of an interest in breastfeeding or formula feeding.
+However, breast milk or formula should remain their main drink for the first year."
+                   Margin="9"/>
+
+                <Label Text="Sleeping"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby's sleeping habits may be pretty similar to what they were at seven months.
+Some babies this age may be down to two naps a day and may sleep about 12 or 13 hours at night. If your baby has separation anxiety, nap and bedtime maybe a bit more of a struggle. Being consistent in your routine and understanding this phase won't last forever may help."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="MONTH" IconImageSource="i9.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b16.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b16.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your 9 month old baby"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="At 9 months, your baby is turning into quite the character. She knows what she wants, such as a favorite toy, and won't mind screaming until she gets it. Your little one is also showing her unique personality more every day."
+                   Margin="9"/>
+
+                <Label Text="Social and Emotional Development"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="As your 9 month old learns more about the world around her, stranger anxiety may get stronger. A few months ago, your baby may have been happy to be held by anyone. But now she may start to cry or act afraid of people she does not know well."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="If you have not heard a mama or dada just yet, you probably will soon. Your little one is also starting to understand what certain words mean and may even respond to some commands. For example, if you say come here, she may start to crawl towards you. She may also respond to her name and use her fingers to point to objects."
+                   Margin="9"/>
+
+                <Label Text="Motor Skills"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Babies this age are often able to pull themselves up to a standing position. Don't be surprised if you walk into your baby's room one morning and find her standing in her crib. She may also continue to cruise along the furniture."
+                   Margin="9"/>
+                <Label Text="Many 9 month olds are crawling. In fact, she may be becoming an expert crawler and may even crawl up stairs. Just remember, she probably can crawl up way before she can safely make the trek down. Always supervise the climb, so she does not tumble down the stairs."
+                   Margin="9"/>
+                <Label Text="Although those adorable baby shoes may be calling your name, your baby does not need shoes until she is walking. Learning to walk is easier in bare feet. Plus, going barefoot helps her develop the muscles in her feet."
+                   Margin="9"/>
+                <Label Text="In addition to large motor skills, your 9 month old's fine motor skills are also improving. She is probably able to grasp small objects even better than she did last month. She is also able to coordinate hand movements better, which comes in handy for self-feeding or banging two pots together."
+                   Margin="9"/>
+
+
+                <Label Text="Eating"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="In addition to pureed fruits and veggies, you may want to consider starting your 9 month old on finger foods. She probably can pick up food using her thumb and finger."
+                   Margin="9"/>
+                <Label Text="Cut food into tiny bites to prevent choking and let your baby try to feed herself. Some ideas for finger foods include small chunks of bananas, small pieces of a bagel and well-cooked pasta spirals."
+                   Margin="9"/>
+                <Label Text="If you have not introduced a sippy cup, you may want to give it a try. By nine months, most babies will be able to get the hang of using the cup."
+                   Margin="9"/>
+
+                <Label Text="Sleeping"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Just when you thought your baby was settling into a good sleep schedule, things may have changed. Some 9 month olds are ready to give up a nap and may be down to one or two naps a day."
+                   Margin="9"/>
+                <Label Text="When it comes to overnight sleep, your baby may start to show a little resistance. She understands bedtime is the end of playtime, and that's not cool. Also, being separated from you and Dad may not be sitting too well these days. Stick to your bedtime routine.
+Consider giving your baby a few minutes to self-soothe and get back to sleep if she wakes crying in the middle of the night."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+
+
+    <ContentPage Title="MONTH" IconImageSource="i10.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b17.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b17.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your 10 month old baby"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby is getting bigger and stronger all the time. She knows the difference between strangers and familiar faces, which may mean separation anxiety is a bit of a problem. Your 10 month old is making strides in all areas of her development from language to motor skills. It's hard to believe in only ten months, your baby hardly resembles the tiny newborn you first held in your arms."
+                   Margin="9"/>
+
+                <Label Text="Social and Emotional Development"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="By 10 months, your baby is becoming quite the sleuth. She is figuring out how things work and what goes where. Her memory is also improving. She may recognize familiar faces, such as the babysitter, even if she has not seen her in a few weeks. But as your baby understands more, she may become fearful of things that never bothered her before, such as loud noises or the dishwasher."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your 10 month old is continuing to make sounds that are coming closer to actual words. Some early talkers may even be saying a few words. But you might have to wait a month or two to hear mama or dada."
+                   Margin="9"/>
+                <Label Text="Although they don't have an extensive vocabulary just yet, babies this age are becoming skilled at nonverbal
+communication. For instance, your baby may shake her head no wave bye-bye and point at things."
+                   Margin="9"/>
+                <Label Text="Continue to help her language development by talking to your baby, playing games and reading to her. Books with flaps and textures may be a big hit for a 10 month old."
+                   Margin="9"/>
+
+                <Label Text="Motor Skills"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Babies this age may be able to get around a few different ways. Your baby may be crawling, standing and even attempting a few steps. Walking may be just around the corner. She may enjoy showing off her new skills every chance she gets. Make sure to continue to provide plenty of opportunities for safe exploration around your home. Your baby may also be getting more coordinated.
+She may be able to hold a toy in one hand and do something else with the other."
+                   Margin="9"/>
+
+                <Label Text="Eating"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Up until this point, your baby may have been growing by leaps and bounds. But her growth may be slowing a bit, which can result in a little less interest in food. It's nothing to worry about. She'll pick up the pace when she hits her next growth spurt."
+                   Margin="9"/>
+                <Label Text="Consider piquing her interest in food by expanding her menu. Try combination foods, such as macaroni and cheese or bite size pieces of soft vegetables including peas and carrots. Keep in mind, in addition to three meals a day, your baby still needs 500 to 600 ml of formula or breast milk."
+                   Margin="9"/>
+                <Label Text="Since your baby's fine motor skills are improving, consider giving her a spoon and let her try feeding herself. It may not be pretty, but her proud grin will be worth the mess."
+                   Margin="9"/>
+
+                <Label Text="Sleeping"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="By 10 months, your baby may have decided to ditch a nap and is down to one a day. But if your little one is still napping twice a day, no worries. Whether your baby naps once or twice a day may depend on how many hours she sleeps overnight."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+
+
+    <ContentPage Title="MONTH" IconImageSource="i11.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b18.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b18.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your 11 month old baby"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="At 11 months, your baby's behavior may seem a bit contradictory. On the brink of her first birthday, she wants to explore the world around her and test her independence. But at other times, she may cling to you and cry if you leave the room."
+                   Margin="9"/>
+
+                <Label Text="Social and Emotional Development"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="By 11 months, babies often have strong likes and dislikes, and they aren't afraid to let you know. Don't be surprised if your baby cries or screams in frustration if she does not get her way. She may also be uncooperative at times. It's a normal part of development as your baby learns to assert herself. It's not too early to reinforce good behaviors and set some limits."
+                   Margin="9"/>
+                <Label Text="Your baby may have a longer attention span, which means she may be able to play longer.
+She may also be starting to engage in pretend and may imitate things you do, such as talking on the phone or brushing your hair."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+
+                <Label Text="Although your baby has been talking for months by babbling and making sounds, she might be starting to use some real words.
+Research shows babies often say their first word between 11 and 14 months. Dad, tell Mom not to take offense if your little one says dada before mama. The D sound is often easier for babies than the M sound."
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="your baby is not using words yet, don't worry. Babies develop at different rates. Just keep talking to your baby to boost her communications skills. Remember, babies learn best when they master skills at their"
+                   Margin="9"/>
+
+                <Label Text="Motor Skills"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="At 11 months, your baby may not like being confined in a stroller or swing. After all, her mobility is improving, and she wants to be out and about."
+                   Margin="9"/>
+                <Label Text="Many babies can cruise pretty well while holding on to furniture or your hand. Your baby may also try a tentative step on her own. Some early walkers are already on the go."
+                   Margin="9"/>
+                <Label Text="Chasing your little bundle of energy can be exhausting. Make sure you take care of yourself and take time to recharge."
+                   Margin="9"/>
+
+                <Label Text="Eating"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Babies this age are often capable of feeding themselves with finger food or a spoon.
+While, it won't be neat, it's good for both her fine motor skills and social development to learn how to feed herself."
+                   Margin="9"/>
+                <Label Text="By 11 months, your baby's sense of taste has developed more. She may turn up her nose at something she used to like or develop a taste for something she refused in the past.
+Keep trying new foods to see what she likes."
+                   Margin="9"/>
+                <Label Text="Keep in mind, most doctors don't recommend whole milk until a baby is over a year old. So continue to offer formula or breastmilk."
+                   Margin="9"/>
+
+
+                <Label Text="Sleeping"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="When it comes to sleep, you may not see a lot of changes from last month. Babies require about 14 hours of sleep a day when they are 11 months old. Although some babies still nap twice a day at this age, others are down to one nap. If bedtime is a battle, being consistent with your sleep routine may help."
+                   Margin="9"/>
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="MONTH" IconImageSource="i12.png">
+        <ScrollView>
+            <StackLayout Margin="5">
+                <StackLayout Orientation="Horizontal" Margin="10">
+                    <Image Source="b19.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                    <Image Source="b19.1.jpg"
+                       HorizontalOptions="Start"
+                       WidthRequest="180"
+                       HeightRequest="180"
+                       Aspect="Fill"
+                       Margin="1"/>
+
+                </StackLayout>
+
+                <Label Text="Your 12 month old baby"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="How did a year go by so fast? Your baby has come a long way. She went from a helpless newborn to an increasingly independent little person with her own unique personality."
+                   Margin="9"/>
+
+                <Label Text="Social and Emotional Development"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Your baby was starting to learn object permanence a few months back. Now she probably has a pretty good understanding of the concept. This means she may look for hidden objects and people including you or Dad when you leave the room."
+                   Margin="9"/>
+                <Label Text="Although your 12 month old still needs plenty of care, she may be able to do some things on her own. For example, she may be able to turn the page of a book, feed herself and even help while you are getting her dressed."
+                   Margin="9"/>
+                <Label Text="Babies this age often enjoy being around other babies. If you are not in a play group, you may want to consider joining one."
+                   Margin="9"/>
+
+                <Label Text="Communication"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="As she gets closer to using real words, you may notice your baby is babbling with more inflection. Your baby also understands the meaning of more words now. For example, she may say dada and know she is referring to Daddy. She is also paying close attention to gestures and may try to mimic words you say. One way you can help your baby's language development is by pointing to objects and asking her what they are."
+                   Margin="9"/>
+
+                <Label Text="Motor Skills"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Move out of the way Mom and Dad, you have a little mover and shaker on your hands. At 12 months, your little one may be less and less content to sit in her swing or high chair and watch the world go by. She has got places to see and people to meet. She may always want to be on the move exploring."
+                   Margin="9"/>
+                <Label Text="Most babies this age are getting around by crawling, cruising or walking. If your 12 month old has not taken her first step just yet, don't worry. Some babies don't walk until they are a few months past their first birthday."
+                   Margin="9"/>
+                <Label Text="Some 12 month old babies love to climb.
+Make sure your environment has been baby proofed with climbing in mind. For instance, slide kitchen chairs under the table and store step stools away from counters. Use approved baby gates to prevent your baby from falling down the stairs."
+                   Margin="9"/>
+
+                <Label Text="Eating"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="By one year, your baby can start to transition from formula or breastmilk to whole milk.
+Don't use skim or low-fat milk, your baby needs the fat for proper brain development.
+If you are breastfeeding and want to continue a bit longer, do what works for you and your baby."
+                   Margin="9"/>
+                <Label Text="Most 12 month olds are eating a variety of finger foods, so be careful to avoid choking hazards. Wait until she is older to give her certain foods, such as hot dogs and whole grapes, which are easy to choke on."
+                   Margin="9"/>
+
+                <Label Text="Sleeping"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text="Babies this age need on average between 13 and 14 hours of sleep each day. 12 month old babies still need a nap in the afternoon. But the morning nap may be a thing of the past.
+The length of your baby's nap may vary.
+Some days she may nap for thirty minutes, other times it's an hour or two."
+                   Margin="9"/>
+
+
+                <Label Text=""
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="DimGray"
+                   Margin="2"/>
+                <Label Text=""
+                   Margin="9"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>

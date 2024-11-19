@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l5_3">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p19" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="Developing a voice" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="Are 'no' and 'mine' your toddler's favorite words? If so, you are not alone. Aside from this, your little one is probably chatting now more than ever. They can likely say ten to 20 words and can put together short sentences, though sometimes you will be the only one able to understand what they are saying." TextColor="Black"/>
+                <Label Text="You can help your child expand their vocabulary and speaking skills by taking an active role in conversations with them" TextColor="Black"/>
+                <Label Text="Use complete sentences" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Even if they use 'baby talk' back to you. Repeat what they say to you in a more complete form. For instance, if they say, 'Drink more'. You can respond with, 'Would you like more to drink?'" TextColor="Black"/>
+                <Label Text="Encourage conversation" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Even if you can't understand a thing they are saying, be sure to respond in full sentences and keep the back-and-forth of the conversation going. This can be fun using a play telephone. Your little one has likely seen you talking on the phone and often wants to imitate what you do." TextColor="Black"/>
+                <Label Text="Start counting" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Count toes and fingers, toys as you are putting them away or blocks while you are building. Every little helps." TextColor="Black"/>
+                <Label Text="Teach them words for body parts" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="This can be fun in the tub or during a diaper change. You can even teach them short songs like Head, Shoulders, Knees and Toes or Alouette (if you know French)" TextColor="Black"/>
+                <Label Text="Read, read, read" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Reading out loud to your child every day is one of the best things you can do to expand their vocabulary (and to build a lifelong love of reading)." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

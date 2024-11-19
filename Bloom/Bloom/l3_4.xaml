@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l3_4">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p13" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="Toddler touchables" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="Now that your baby is becoming mobile, crawling all over the place and even walking, the whole world starts to open up to exploration. Toddlers love to learn about their world through touch." TextColor="Black"/>
+                <Label Text="Start by making your home a free-to-touch space. If you have breakables or things you don't want your baby to handle, be sure to put those up on a higher shelf or even pack them away for now. Get down on your hands and knees, and crawl around your home making sure everything is safe for your baby. Watch for anything that is breakable, could be a choking hazard, might tip or could cause them to fall." TextColor="Black"/>
+                <Label Text="Exploring through touch" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="So now that you have a touch-friendly zone,what can you do to encourage your baby's development?" TextColor="Black"/>
+                <Label Text="1-Provide toys with different textures and materials - soft, hard, smooth, etc.
+                       2-Gather fabrics with different feels and explore them together - felt, corduroy,satin, cotton, velvet, faux fur. Let them handle the pieces but also rub them along your baby's cheek or arm to give them another viewpoint.
+                       3-Present your baby with a tub of dry pasta pieces and let them explore - supervise closely and be sure the pieces are large enough not to be choking hazards. 
+                       4-Let your baby play with some gelatin -this can get pretty messy and you will likely want to do it at the table, but it allows your baby to squish material between their fingers and explore another new sensation." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

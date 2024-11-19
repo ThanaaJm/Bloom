@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.Page15">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout >
+
+                <Label Text= "The power of dad play" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"
+                       VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                <Image Source="f12" Aspect="AspectFill" HeightRequest="200" WidthRequest="150"/>
+
+                <Label Padding="10"  Text=" I spend a lot of time talking to dads about the science of fatherhood and one of the questions they regularly ask me is, What is the best thing I can do to build a relationship with my baby And my response is always one word. Play. " TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text=" Take the time to play with your baby. But not just any sort of play. Rough and tumble (RT) play. This is the sort of play that I think we all recognize. It is fast and exhilarating, filled with screams and laughter and even a little bit of risk. You throw your child in the air, spin them around, aeroplane them across the room. You wrestle and tickle and chase each other, often jumping off the sofa or climbing anything available. This is a form of play that we often see and it plays a very special role both in building the bond between you and your baby but also in your baby's development. "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label  Padding="10" Text="In the absence of pregnancy and childbirth, dads, vou can build your bond with your bab through interaction. In the early days and weeks this can be tricky because of the lack of two-way interaction; however after 6 months, when your baby has developed adequate coordination and movement, you can start to engage in very gentle RT play. The high degree of the physical movement this form of play involves, is wonderful for releasing floods of the key bonding chemicals - oxytocin, dopamine and beta endorphin- for both you and your baby. As this sort of play is so fast and so physical, it is proven to be an excellent fast track way of forming a strong bond in our often time-poor world. Indeed, the importance of play in forming the baby-dad bond is underlined by the fact that the brains of dads and babies have co-evolved to both receive a boost in the release of bonding chemicals from play. This is the reason why kids seem to naturally want to play RT with dad rather than mum (she receives a boost from nurturing behavior). "
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text=" Dads are often dismissed as the 'fun' parent but I say embrace this label because while you may be having fun, more significantly, you are building the most amazing relationship with your child and teaching them the skills that will help them to survive and thrive in the world. Get playing!" 
+                        TextColor="Black" FontSize="Small"/>
+
+
+                <Label  Padding="10" Text=" Dr Anna Machin is an evolutionary anthropoloaist with a specialist interest in the science behind close relationships. She is the author of the popular parenting book The Life of Dad: The Making of the Modern Father " 
+                        TextColor="Black" FontSize="Small"/>
+
+
+
+                <Label Text="Please note:"/>
+
+                <Label Text=" This information is not intended to replace the advice of a trained medical doctor." />
+                <Label Text=" Philips Consumer Lifestyle B.V. disclaims any liability for the decisions you make based on this information,"/>
+                <Label Text=" which is provided to you on a general information basis only and not as a substitute for personalized medical advice."/>
+                <Label Text="All contents copyright O Philips Consumer Lifestyle B.V. 2023. All rights reserved"/>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

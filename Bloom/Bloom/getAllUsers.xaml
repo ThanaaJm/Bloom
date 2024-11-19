@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.getAllUsers">
+    <ContentPage.Content>
+        <StackLayout Margin="4">
+            <ListView x:Name="listview" ItemSelected="listview_ItemSelected" SeparatorColor="Black">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal"
+                            HorizontalOptions="FillAndExpand"
+                                      Margin="20, 20, 20, 0" >
+                                <Label Text="{Binding name}" HorizontalOptions="StartAndExpand" />
+                                <Label Text="{Binding phone}" />
+                                <Label Text="{Binding email}" HorizontalOptions="StartAndExpand" />
+                                
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            
+             </ListView>
+            
+            <Entry x:Name="idEntry" IsVisible="False"></Entry>
+            <Entry x:Name="nameEntry" IsVisible="False"></Entry>
+            <Entry x:Name="phoneEntry" IsVisible="False"></Entry>
+            <Entry x:Name="emailEntry" IsVisible="False"></Entry>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                
+                <Button x:Name="update" Text="Update" Clicked="update_Clicked" IsVisible="False"
+                        FontSize="17" TextColor="WhiteSmoke" FontAttributes="Bold" 
+                        BackgroundColor="#09DEF9" BorderWidth="3" BorderColor="#09DEF9"
+                        HorizontalOptions="Fill" CornerRadius="30" Margin="10"></Button>
+                
+                <Button x:Name="Delete" Text="Delete" Clicked="Delete_Clicked" IsVisible="False" 
+                        FontSize="17" TextColor="WhiteSmoke" FontAttributes="Bold" 
+                        BackgroundColor="#09DEF9" BorderWidth="3" BorderColor="#09DEF9"
+                        HorizontalOptions="Fill" CornerRadius="30" Margin="10" ></Button>
+                
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
+

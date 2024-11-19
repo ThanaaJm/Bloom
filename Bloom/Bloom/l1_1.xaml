@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l1_1">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p1" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="You are the entertainer" TextColor="#09DEF9" FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Label Text="The first few months of your baby's life are time of immense growth. From that sleepy newborn to an interactive infant interested in your every move, you will have more and more opportunities for playing and learning The problem is your baby cannot entertair themselves. You need to be the entertainer." TextColor="Black"/>
+                <Label Text="The easiest way to interact with your newborn in the first few weeks of life is to hold them in your lap when they are in a quiet, alert state and make faces at them. Don't be afraid to get silly. Open and close your mouth. Make a surprised face.Smile.Frown. Stick out your tongue. Newborns prefer faces above anything else and may even start to mimic your movements." TextColor="Black"/>
+                <Label Text="Contrasting colors and silly songs" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Over the first few weeks, your baby will develop the ability to track an object moved slowly across their field of vision. Choose an object that will get your baby's attention pne that contrasts with the surrounding environment. The best colors to choose are red, white or black. Let them first focus on the object, then move it slowly side to side or up and down. Be sure to hold it at the right listance - for a newborn that is about eight inches (20 cm) from their face but by three months it is about 15 inches (38 cm) away." TextColor="Black"/>
+                <Label Text="Spend time entertaining your baby with singing and movement. Learn nursery rhymes that have hand and leg movements. Your baby doesn't require a classically trained singer- they love your voice and will be happy to near you, whether you can carry a tune or not Gently stretch your baby's arms and legs or help your baby to clap their hands (or eventheir feet)" TextColor="Black"/>
+                <Label Text="Be sure to stop when your baby gets restless Their attention span isn't very long It may feel tedious at times but enjoy it while it lasts. Before you know it, your baby will be able to do many of these activities on their Own." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

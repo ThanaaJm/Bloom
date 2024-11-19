@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l4_1">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p14" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="Getting ready to walk" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="Around age one, your baby will take their first steps, though for some it may not happen for a few more months. Don't worry, walking is a developmental milestone that babies reach in their own good time." TextColor="Black"/>
+                <Label Text="Your baby will have been building up to this moment for months. The muscles they have been strengthening with crawling and pulling themselves up, as well as sitting and reaching for toys will all come into play with walking They just need a little confidence and a lot of balance." TextColor="Black"/>
+                <Label Text="A helping hand" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="There isn't really anything you can do to make it happen faster, though your enthusiasm for them to let go and take those first steps can be a fun game for both of you. Stand or kneel in front of your baby and reach out youl hands, encouraging them to come to you. Let them hold your fingers as they walk to you if they seem unsure at first." TextColor="Black"/>
+                <Label Text="Don't bother with shoes for now. Letting you baby walk barefoot will help them improve their coordination and build muscle tone in those chubby little feet and ankles." TextColor="Black"/>
+                <Label Text="A second check" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Now is the time to do another childproofing sweep of your home. Things your little one couldn't reach when crawling and pulling up may now be accessible to a toddler who can walk and eventually climb. Be conscious of where your toddler could pull something over or get caught and trip. Block the stairs - top and bottom. And remember never leave your toddler unattended." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

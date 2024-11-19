@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.Page10">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text= "Keeping your baby safe" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"
+                       VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                <Image Source="f13" Aspect="AspectFill" HeightRequest="200" WidthRequest="150"/>
+
+                <Label Padding="10"  Text="There are a lot of things that happen when y become a parent that no one really warns you about. Some of those things have to do with your body (Did you just pee a little when you laughed? Don't worry -that's normal.) Some have to do with your new state of being (Is that poop or chocolate? Better scoop it up with your fingernail and give it a smell to find out.) And some have to do with the crazy places your mind now goes.  " 
+                       TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text=" That's right. You may have lived your life believing that you were mostly sane and in control of your thoughts. But now that you're a parent, you know the truth: your brain is fully capable of going places you wouldn't ever want it to go. And sometimes (maybe even a lot of times) you will have flashes of all the terrible things that could happen to your baby, and you will immediately want to break down in tears and scrub the thought away. "
+                  TextColor="Black" FontSize="Small" />
+
+                <Label  Padding="10" Text="Don't worry. This, too, is normal - though it's a reality most of us would probably like to avoid. You don't want to live in a world where you are forever considering worst-case scenarios. And it doesn't feel good to have your first full night of sleep in months ruined by the panic that maybe your baby didn't wake up in the night because they're not breathing "
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text="
+            Go ahead, though. Make that leap out of bed and into the nursery to check - every parent does those first few times " 
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text=" What's important is to inform vourself the best an about ways you and your partner can ease some of those fears you are experiencing by taking steps to keep your baby safe." 
+                        TextColor="Black" FontSize="Small"/>
+
+
+
+                <Label Text="Please note:"/>
+
+                <Label Text=" This information is not intended to replace the advice of a trained medical doctor." />
+
+
+                <Label Text=" Philips Consumer Lifestyle B.V. disclaims any liability for the decisions you make based on this information,"/>
+                <Label Text=" which is provided to you on a general information basis only and not as a substitute for personalized medical advice."/>
+                <Label Text="All contents copyright O Philips Consumer Lifestyle B.V. 2023. All rights reserved"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

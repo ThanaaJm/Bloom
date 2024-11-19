@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l4_2">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p15" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="Moments for music" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="Long before now, your little one started being able to understand words and short phrases. Talking to your baby has been a great way to aid language development, even from birth. And if you have been singing to your baby, you are building on the basic rhythms of language Now that your baby is saying a few words, it is time to teach them to sing along. Here is how to get your toddler involved:" TextColor="Black"/>
+                <Label Text="Incorporate music into your day, every day" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Even if it is just for ten minutes or so, exposing your child to a variety of songs rhythms and tempos every day will help cultivate their musical curiosity." TextColor="Black"/>
+                <Label Text="Have your child imitate you" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Make sounds and have your toddler imitate them. You don't need to have perfect pitch Remember the voice of a baby or toddler is higher than an adult's, so you will likely want to avoid any very low tones or imitate the sounds they make while they are playing." TextColor="Black"/>
+                <Label Text="Choose songs that include movement" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Teach your child the movements to simple songs like Itsy Bitsy Spider or This Little Piggy. Why not make up your own motions to match the rhythm and words of the song? Have your child dance to music you are singing to or playing. Switch tempos and watch them adjust their motions. There is no wrong way to do the movements." TextColor="Black"/>
+                <Label Text="Make-up songs to describe the world around you" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Narrate your day but with song rather than just spoken word. Create silly songs when completing everyday tasks, such as changing diapers, cleaning up toys or giving your toddler a bath." TextColor="Black"/>
+                <Label Text="You don't need to stick to children's music" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="While nursery rhymes are designed with toddlers and preschoolers in mind, there is no reason why you can't listen to some of your own favorite music, from classical to jazz to rock or hip hop. You will be expanding your child's musical horizons." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

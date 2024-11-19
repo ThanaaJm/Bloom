@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.guides" BarBackgroundColor="White" UnselectedTabColor="LightBlue"
+            SelectedTabColor="#22C3E5" >
+
+    <ContentPage Title="Baby Care">
+        <StackLayout Padding="10">
+            <CollectionView x:Name="F" SelectionMode="Single" SelectionChanged="F_SelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="200"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding img}" Grid.Row="0" HeightRequest="100" Grid.Column="0"  />
+                            <Label Text="{Binding text}" BackgroundColor="Transparent" HeightRequest="100" TextColor="Black"
+                                   FontSize="Large" Grid.Column="1"></Label>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Crying"  >
+        <StackLayout>
+            <CollectionView x:Name="a" SelectionMode="Single" SelectionChanged="a_SelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="200"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding img}" Grid.Row="0" HeightRequest="100" Grid.Column="0"  />
+                            <Label Text="{Binding text}" BackgroundColor="Transparent" HeightRequest="100" FontSize="Large" 
+                                   TextColor="Black" Grid.Column="1"></Label>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Safety"  >
+        <StackLayout>
+            <CollectionView x:Name="H" SelectionMode="Single" SelectionChanged="H_SelectionChanged_1">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="200"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding img}" Grid.Row="0" HeightRequest="100" Grid.Column="0"  />
+                            <Label Text="{Binding text}" BackgroundColor="Transparent" TextColor="Black" HeightRequest="100" 
+                                   Grid.Column="1" FontSize="Large"></Label>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Dad"  >
+        <StackLayout>
+            <CollectionView x:Name="i" SelectionMode="Single" SelectionChanged="i_SelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="200"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding img}" Grid.Row="0" HeightRequest="100" Grid.Column="0"  />
+                            <Label Text="{Binding text}" BackgroundColor="Transparent" HeightRequest="100" FontSize="Large" 
+                                   TextColor="Black" Grid.Column="1"></Label>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Feeding"  >
+        <StackLayout>
+            <CollectionView x:Name="m" SelectionMode="Single" SelectionChanged="m_SelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="200"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding img}" Grid.Row="0" HeightRequest="100" Grid.Column="0"  />
+                            <Label Text="{Binding text}" BackgroundColor="Transparent" HeightRequest="100" 
+                                   FontSize="Large" TextColor="Black" Grid.Column="1"></Label>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+
+    </TabbedPage>

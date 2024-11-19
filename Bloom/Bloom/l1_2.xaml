@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l1_2">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p2" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="Early sensory experiences" TextColor="#09DEF9" FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Label Text="By their due date, all of your baby's five senses will be developed and will continue to refine as they grow. Here is how you can engage with each of them:" TextColor="Black"/>
+                <Label Text="Vision:" FontSize="Body" TextColor="#09DEF9"/>
+                <Label Text="Your baby will focus best on objects about 8 inches (20 cm) from their face. This will extend as your baby grows. Keep in mind your paby's eye muscles are still immature, so they won't be able to hold their focus for long and may occasionally look cross-eyed. Eventually, their coordination will improve and they will be able to follow objects that move across their field of vision, such as a toy moved slowly in front of them or mom walking across the room. Consider hanging a colorful mobile above your baby's sleep space. You could try nolding your baby in different positions to give them a changing view of the world." TextColor="Black"/>
+                <Label Text="Hearing:" FontSize="Body" TextColor="#09DEF9"/>
+                <Label Text="Your baby's hearing is fully developed when they are born. They will be able to recognize your voice (and the voices of those in your household) at birth. You can help this sense develop by talking or singing to your baby often or playing quiet music. Offer toys that shake, crinkle or play sounds." TextColor="Black"/>
+                <Label Text="Smell:" FontSize="Body" TextColor="#09DEF9"/>
+                <Label Text="We often don't think about a baby's experiences with smell. But babies have certain scents they prefer, such as the smell of their mom's milk as opposed to the milk from another mom. If you use a babysitter and they have trouble getting your baby to settle, consider having the caregiver swaddle your baby in a T-shirt mom has worn." TextColor="Black"/>
+                <Label Text="Touch:" FontSize="Body" TextColor="#09DEF9"/>
+                <Label Text="Babies thrive with positive touch. Spend time skin-to-skin with your newborn. Practice infant massage as your baby grows. Tickle your baby's tummy or toes. Offer toys with a variety of textures, materials and weights. Talk to your baby during nappy changes or baths,labelling the different body parts you are touching as you go." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

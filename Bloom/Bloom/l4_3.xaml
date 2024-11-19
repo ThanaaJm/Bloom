@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l4_3">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p16" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="How to get crafty" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="Making art may not seem like something a one-year-old is ready to do, but think again. This is a great age to introduce new materials to let them express their creativity while exploring new sensory experiences. The key is choosing activities that are age-appropriate Here are a few ideas:" TextColor="Black"/>
+                <Label Text="Create a paper box" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Add pieces with different colors and textures Let your toddler know they can tear, crinkle and fold the pieces - you can even show them how." TextColor="Black"/>
+                <Label Text="Paint without the mess" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Put a few dabs of paint in a clear, sealable, plastic bag and let your child squish them around to mix the colors. Show them how to lay the bag flat (placing a piece of white paper underneath) and draw in the paint with their fingers." TextColor="Black"/>
+                <Label Text="Try water painting" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="For this outdoor activity, give your child a large paintbrush and a container of water. Let them paint the patio, benches, trees, etc. Show them how to make watery handprints that disappear as they dry. Always supervise your toddler around any amount of water." TextColor="Black"/>
+                <Label Text="Collage together" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Put some glue on paper for them, then allow them to stick items to the glue. Keep a box full of age-appropriate supplies just for this and be sure to supervise." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

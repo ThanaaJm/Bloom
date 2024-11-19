@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.Page14">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text= "The first Day alone" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"
+                       VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                <Image Source="f11" Aspect="AspectFill" HeightRequest="200" WidthRequest="150"/>
+
+                <Label Text= "My wife reminded me one more time where everything was, then wished me luck, got into the car and left for work" 
+                       TextColor="Black" FontSize="15" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                <Label Padding="10"  Text=" My son was 18 weeks old, and I was home alone with him for the first time. " 
+                       TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text=" It's okay, I told myself. You can do this. "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label  Padding="10" Text=" In the UK. parents can take up to 39 weeks of paid parental leave. My wife and I decided to split it down the middle"
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text=" It's still quite rare for men to take this step. I was the first in my company to do it. I was extremely proud of that: yeah, bby, equal rights pioneer!" 
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text=" But there was no time to be smug. The baby crying, and I had to work out why. "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label  Padding="10" Text=" People ask me what's hard about looking after a baby. In an odd way, the answer is: nothing "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label  Padding="10" Text=" I once tried to change a headlight in my car. It took me an hour before I gave up. There wasn't enough space for me to reach around. My wrists just don't bend that way. Changing that lightbulb didn't feel just hard: it felt impossible. I would never be able to learn how to do it. "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label Text= "Looking after a baby means learning some" TextColor="Black" FontSize="15" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                <Label  Padding="10" Text=" new skills. Some of these are hard to master. But none of them is as hard as changing that headlight. "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label  Padding="10" Text=" Feeding a baby is simple. Dressing them? No problem. Dirty diapers aren't as gross as people say. And babies sleep a lot. When they're asleep, you take care of them by doing literally nothing. "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label  Padding="10" Text=" The hard part of looking after a baby - the really hard part -is deciding what to do. "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label  Padding="10" Text=" Your kid starts crying. There are only so many ways an 18-week-old can be unhappy, and whatever it is, it's an easy fix. But what do you fix? "
+                        TextColor="Black" FontSize="Small" />
+
+
+                <Label  Padding="10" Text=" Are they hungry? Have they eaten too much? How can vou tell? Are they tired? Too hot? Diaper wet? Take their temperature: you get a number, but what does that mean? Are they ill. or do they just want a cuddle? "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label  Padding="10" Text="Faced with so many options, and with your kid screaming in your ear, it's easy to get swamped. But you have to start somewhere. Sometimes you'll make the wrong decision, or miss something obvious, or need to ask for help. That's fine. This is just another skill, and this is how you learn it.  "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label Text= "You can do this." TextColor="Black" FontSize="15" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+                <Label  Padding="10" Text=" Written by Adam Wilson  "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label Text="Please note:"/>
+
+                <Label Text=" This information is not intended to replace the advice of a trained medical doctor." />
+
+
+                <Label Text=" Philips Consumer Lifestyle B.V. disclaims any liability for the decisions you make based on this information,"/>
+                <Label Text=" which is provided to you on a general information basis only and not as a substitute for personalized medical advice."/>
+                <Label Text="All contents copyright O Philips Consumer Lifestyle B.V. 2023. All rights reserved"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

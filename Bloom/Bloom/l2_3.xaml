@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l2_3">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p8" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="5 benefits for your baby development through tummy time" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="You've been told to only put your baby on their back to sleep, but has your baby's healthcare provider recommended tummy time? Experts recommend about 15 minutes of tummy time per day from age 2 months until baby can safely roll from tummy to back and back to tummy on their own." TextColor="Black"/>
+                <Label Text="Tummy time will:" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="1. Help you avoid a flat spot on baby's head:positional plagiocephaly happens when paby's head rests against a flat surface ir he same spot time after time. You might notice hair loss in a single area, and the skull may feel flat. It's becoming more common as babies are always placed on their backs for sleep and are often left in car seats or other infant seats for hours per day. Tummy time helps to keep this from happening." TextColor="Black"/>
+                <Label Text="2. Improve neck muscle control and stretching:If your baby is born with torticollis, tummy time can help strengthen and stretch the neck muscles to lessen the impact of the condition. Many times babies simply have a side preference, and tummy time helps them work muscles or their non-dominant side." TextColor="Black"/>
+                <Label Text="3. Tummy time works baby's whole body including the hands: babies will star pushing themselves up with their arms to look around, and will eventually start reaching for toys nearby. This not only improves gross motor skills, but also fine motor hand-eye coordination." TextColor="Black"/>
+                <Label Text="4. It gives baby a new perspective on the world:imagine laying on your back staring at the ceiling all day. Tummy time allows baby to move their head up and down and side to side, taking in a wider visual field." TextColor="Black"/>
+                <Label Text="5. Gassy baby? The counterpressure as baby lies on their tummy can provide some relief from gas pains." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

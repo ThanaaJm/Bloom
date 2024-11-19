@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.Page6">
+<ContentPage.Content>
+    <ScrollView>
+        <StackLayout>
+            <Label Text= "How to soothe a crying baby" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"
+                   VerticalOptions="Center" HorizontalOptions="Center"/>
+
+            <Image Source="f6" Aspect="AspectFill" HeightRequest="200" WidthRequest="150"/>
+
+            <Label Padding="10"  Text=" It doesn't necessarily matter how normal thox tears are, though. No one likes to see his or her baby cry, and as a new parent, you probably want to do something to help. " TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text=" That makes perfect sense, and much of the time there are things you can do to help soothe your crying baby. You might want to attempt: "
+                    TextColor="Black" FontSize="Small" />
+
+            <Label  Padding="10" Text="* Walking and talking with your little one in a comfortable position "
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text="* Swaying and singing to your baby. " 
+                    TextColor="Black" FontSize="Small"/>
+
+
+            <Label  Padding="10" Text="* Moving to a quiet and semi-dark room to rock your baby, particularly if you think he may be feeling over-stimulated  "
+                    TextColor="Black" FontSize="Small" />
+
+            <Label  Padding="10" Text=" * Turning on a noise machine that might mimic some of the repetitive sounds your baby heard in the womb- white noise sounds are perfect! "
+                    TextColor="Black" FontSize="Small" />
+
+            <Label  Padding="10" Text="* Holding your naked baby directly against your skin, perhaps wrapping a light blanket around you both. Many little ones find this skin-to-skin contact soothing.  "
+                    TextColor="Black" FontSize="Small" />
+
+            <Label  Padding="10" Text="* Giving your baby a gentle tummy rub, which can help to ease gas pains.  "
+                    TextColor="Black" FontSize="Small" />
+
+            <Label  Padding="10" Text="* Trying a warm bath. "
+                    TextColor="Black" FontSize="Small" />
+
+            <Label  Padding="10" Text="*  Wearing your baby in a baby carrier as you move around the house"
+                    TextColor="Black" FontSize="Small" />
+
+            <Label  Padding="10" Text=" *Stepping outside with your little one, assuming the weather is reasonable. The change of atmosphere and a fresh breeze can sometimes help. "
+                    TextColor="Black" FontSize="Small" />
+
+
+            <Label  Padding="10" Text=" * Taking a drive"
+                    TextColor="Black" FontSize="Small" />
+
+            <Label  Padding="10" Text=" * Putting your baby in the stroller and going for a walk. "
+                    TextColor="Black" FontSize="Small" />
+
+            <Label  Padding="10" Text="* Plaving some music "
+                    TextColor="Black" FontSize="Small" />
+
+            <Label  Padding="10" Text=" * Stroking vour baby's head in a soothing manner while he rests in your lap "
+                    TextColor="Black" FontSize="Small" />
+
+            <Label  Padding="10" Text="* Placing your little one in a baby swing or vibrating rocker  "
+                    TextColor="Black" FontSize="Small" />
+
+            <Label  Padding="10" Text=" As you can see, there are numerous options for helping your baby to calm down from a crying fit, and this isn't even a complete list - nor does it represent what might work for every child or situation. Remember that babies are all different, and that some of this will be trial and error for a while. It becomes about finding what works for your little one, while also recognizing that what works this week may not work next week. "
+                    TextColor="Black" FontSize="Small" />
+            <Label  Padding="10" Text=" And that's okay. Because again, sometimes babies will just cry. So go easy on yourself if even your best attempts don't seem to be helping. "
+                    TextColor="Black" FontSize="Small" />
+
+
+
+            <Label Text="Please note:"/>
+
+            <Label Text=" This information is not intended to replace the advice of a trained medical doctor." />
+
+
+            <Label Text=" Philips Consumer Lifestyle B.V. disclaims any liability for the decisions you make based on this information,"/>
+            <Label Text=" which is provided to you on a general information basis only and not as a substitute for personalized medical advice."/>
+            <Label Text="All contents copyright O Philips Consumer Lifestyle B.V. 2023. All rights reserved"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage.Content>
+</ContentPage>

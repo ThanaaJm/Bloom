@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.Page5">
+<ContentPage.Content>
+    <ScrollView>
+        <StackLayout>
+            <Label Text= "How much crying is normal ?" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"
+                   VerticalOptions="Center" HorizontalOptions="Center"/>
+
+            <Image Source="f5" Aspect="AspectFill" HeightRequest="200" WidthRequest="150"/>
+
+            <Label Padding="10"  Text="  Defining a 'normal' amount of crying can be difficult, because all babies cry. In fact, some experts estimate that newborns cry an average of one and a half hours a day, going up to three hours a day around 6 weeks of age. And those are just the averages, which means that variations of an hour or two more or less than that can be normal as well. " TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text=" Still, there is some crying that is decidedly abnormal. But how do you recognize that, and what do you do if it seems your baby is crying too much? "
+                    TextColor="Black" FontSize="Small" />
+
+            <Label  Padding="10" Text="If you have a baby who cries quite a bit, you have probably already heard from some well meaning friend or relative that they might have colic. Babies with colic tend to cry more at night, start crying without warning or reason and resist soothing when you try to comfort them. They also cry for long periods of time and often contort their faces, as though they are in pain. "
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text="It used to be thought that babies suffering from colic were struggling with tummy troubles, but now... experts aren't so sure. In fact, some believe that even colic may be normal, at least in terms of what the range of normal is babies experiencing it " 
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text="The good news is that colic fades with time. But how do you know if your baby is just suffering from colic or other pain? The answer is that you should never hesitate to consult with your pediatrician if you are worried that your baby is crying more than 'normal.' Sometimes babies are suffering from allergies to foods you are eating while breastfeeding, or to the mixture of their formula - and that can actually contribute to a fair amount of pain. as well as additional tears. So trust your qut and don't be afraid to reach out for medical advice if vou have concerns. You may still be told that what your baby is experiencing is all within the realm of normal - but at least then you can rest easier knowing you have that official confirmation. " 
+                    TextColor="Black" FontSize="Small"/>
+
+            <Label  Padding="10" Text=" If your baby is crying more than usual, or if the cry is high-pitched, contact your doctor. You know your baby's pattern better than anyone else, so if vou notice anything unusual like a weak cry or moan, a different pattern of crying, or if it looks as if your baby is in pain, don't hesitate to contact your doctor. A sudden shrill cry followed by a brief silence and then more crying may also indicate pain. " 
+                    TextColor="Black" FontSize="Small"/>
+
+
+
+            <Label Text="Please note:"/>
+
+            <Label Text=" This information is not intended to replace the advice of a trained medical doctor." />
+
+
+            <Label Text=" Philips Consumer Lifestyle B.V. disclaims any liability for the decisions you make based on this information,"/>
+            <Label Text=" which is provided to you on a general information basis only and not as a substitute for personalized medical advice."/>
+            <Label Text="All contents copyright O Philips Consumer Lifestyle B.V. 2023. All rights reserved"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage.Content>
+</ContentPage>

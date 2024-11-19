@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.Page1">
+    <ContentPage.Content >
+        <ScrollView>
+            <StackLayout>
+                <Label Text= "Burping" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"
+                   VerticalOptions="Center" HorizontalOptions="Center"/>
+                <Image Source="f1" Aspect="AspectFill" HeightRequest="200" WidthRequest="150"/>
+                <Label Padding="10"  Text="Your little one needs to burp because he tends to take in air while he is eating. To reduce the amount of air coming in and keep baby at ease, make sure he's latched on well: his lips should be sealed around the bottle or vour breast. "
+                       TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text=" * Put baby on your shoulder. Stand or sit comfortably, slightly reclining, and hold him under his bottom so he's well supporte Make sure he's facing behind you, looking over your shoulder, with his chin resting on a soft cloth to absorb any spit-up from a burp. "
+                         TextColor="Black" FontSize="Small" />
+
+                <Label  Padding="10" Text=" * Pat him on the back. Tap or rub the fingertips of your free hand across your baby's shoulder blades. Baby may move back and forth a bit: this won't hurt him as long as your shoulder supports his head. Be patient: It can take four or five minutes to coax out a burp.Make sure vou watch your baby's head. Some babies suddenly push their head back and if it's not supported he could hurt himself."
+                   TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text=" * Sit him on your lap. As an alternate position, place your baby sideways on your lap, with his chest leaning slightly forward. Make sure he's firmly seated. Support his chin between your thumb and index finger, and pat him back across the shoulder blades." 
+                        TextColor="Black" FontSize="Small"/>
+                <Label Text="Please note:"/>
+
+                <Label Text=" This information is not intended to replace the advice of a trained medical doctor." />
+
+
+                <Label Text=" Philips Consumer Lifestyle B.V. disclaims any liability for the decisions you make based on this information,"/>
+                <Label Text=" which is provided to you on a general information basis only and not as a substitute for personalized medical advice."/>
+                <Label Text="All contents copyright O Philips Consumer Lifestyle B.V. 2023. All rights reserved"/>
+
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

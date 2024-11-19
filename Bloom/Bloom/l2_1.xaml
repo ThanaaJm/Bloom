@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l2_1">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p6" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="Sandbox activities" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="Whether it is at the local park, on holiday or in your own backyard, a sandbox makes a fun exploration activity for your baby. A little bit scratchy and a little bit soft, sand provides a new sensory experience for your child." TextColor="Black"/>
+                <Label Text="Give them the tools they need to explore - just a bucket and shovel or a toy truck will do at first." TextColor="Black"/>
+                <Label Text="Show your baby how the sand runs through a sifter. Bury their feet in the sand. Then uncover them and tickle their toes. Let them explore the sand with their hands and feet and don't be surprised if they try to explore it with their mouth)." TextColor="Black"/>
+                <Label Text="Consider combining sand and water" TextColor="#09DEF9" FontSize="Body"/>
+                <Label Text="Let your child make a watery soup with a bucket full of water, a little sand and some shells. Show them how sand sticks together when wet, so they can make a sandcastle (or just a sand mound at this age)." TextColor="Black"/>
+                <Label Text="A sandbox at the park is a great way for babies to see other little ones and children playing, too. It teaches them social skills - sharing space and objects - and lets them earn by observation. And it is often a great way for parents to meet other parents with children of the same age." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

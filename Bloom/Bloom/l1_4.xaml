@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.l1_4">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Image Source="p4" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="Reading with baby every day" TextColor="#09DEF9" FontSize="Large"
+    VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+                <Label Text="From bonding time to learning how the world works, there are plenty of reasons to read to your baby before they can even say Peppa Pig'. Reading every day helps your baby learn sounds and words, which are the basic building blocks of lifelong language and communication skills." TextColor="Black"/>
+                <Label Text="Reading stimulates your child's creativity,brain development, and independence. Even if your baby just puts them in her mouth at first,early exposure to books makes a long-term difference, boosting your child's language abilities and making them more eager to learn how to read." TextColor="Black"/>
+                <Label Text="The more words your little one is exposed to as an infant, the better their pre-school language skills will be. They'll also be better prepared to begin reading on their own and with any luck, become a life-long booklover!." TextColor="Black"/>
+                <Label Text="By pointing, commenting, and asking questions as you read, you can introduce everyday things to your baby, help them understand how words relate to pictures and the way language is made up of symbols." TextColor="Black"/>
+                <Label Text="As you read aloud to your baby, they may not understand what you're saying, but they'll definitely be picking up on the way you speak.Listening to your tone, rhythm and inflections will help your little one finesse their own first words." TextColor="Black"/>
+                <Label Text="Whether you sing a nursery rhyme or just get through this morning's news headlines the ritual of reading to your baby can be a wonderful time to simply enjoy time with one another. Your baby will enjoy the attention almost as much as you will love watching your budding wordsmith grow." TextColor="Black"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

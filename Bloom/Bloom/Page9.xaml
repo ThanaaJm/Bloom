@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.Page9">
+    <ContentPage.Content>
+            <ScrollView>
+                <StackLayout>
+
+                    <Label Text= "Baby led weaning" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"
+                           VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                    <Image Source="f9" Aspect="AspectFill" HeightRequest="200" WidthRequest="150"/>
+
+                    <Label  Padding="10" Text=" What if we told you that you don't have to buy endless sachets of baby food or spend time puréeing fresh foods yourself? Obviously, you can still do either if that's what you want to do but there is another option to consider as well."
+                            TextColor="Black" FontSize="Small"/>
+
+                    <Label  Padding="10" Text="Baby led weaning (BLW) allows you to forget the purées and instead encourages you to let your baby feed themselves- with age- and skill-appropriate finger foods. That's right. They get to pick up their own food and explore those textures, colors and tastes themselves. providing a greater sensory experience. "
+                            TextColor="Black" FontSize="Small"/>
+
+                    <Label  Padding="10" Text="Of course, there are dos and don'ts. You shouldn't give your six-month-old hard or sticky foods, for example, but a bit of mashed avocado or smushed banana can be a great start. Both allow vour little one the chance to quide their own introduction to solids a little ore than purées typically would. "
+                            TextColor="Black" FontSize="Small"/>
+
+                    <Label  Padding="10" Text="Of course, there are dos and don'ts. You shouldn't give your six-month-old hard or sticky foods, for example, but a bit of mashed avocado or smushed banana can be a great start. Both allow vour little one the chance to quide their own introduction to solids a little ore than purées typically would. "
+                            TextColor="Black" FontSize="Small"/>
+
+                    <Label  Padding="10" Text="Sure, it's messy. Allowing a baby to literally dig into a bowl of mashed potatoes is just asking for chaos. But - let's not kid ourselves - purées are plenty messy too. And isn't that half the fun? "
+                            TextColor="Black" FontSize="Small" />
+
+                    <Label Text= " What are the benefits? " TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                    <Label  Padding="10" Text="Baby led weaning has grown in popularity in recent vears, and fans of this method will tell you it has many benefits. Some research suggests BLW can lead to better appetite control, and it can reduce fussiness later. Additionally, your baby will be exposed to a far greater range of colors, textures, and tastes through BLW than they would with purées or pouches.They'll also practice their motor and oral skills, and foster independence. "
+                            TextColor="Black" FontSize="Small" />
+
+                    <Label  Padding="10" Text="Many argue that baby led weaning is easier for you, too. Your baby can join you at the table while you eat and can even share some of the things you're eating (within reason, of course). " 
+                            TextColor="Black" FontSize="Small"/>
+
+
+                    <Label Text= "Are there any negatives? " TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                    <Label  Padding="10" Text=" Downfalls are that it can be messier: your baby will be picking up all those foods for themselves (and often hurling them around or smearing them on their face). Additionally, there can be more waste (particularly in the beginning, when they may only take one or two bites of what is offered) and caution must be taken in terms of what foods to give."
+                            TextColor="Black" FontSize="Small"/>
+
+                    <Label Text= "How to start " TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+                    <Label  Padding="10" Text="Start by bringing your baby to the table and introducing foods when you and your family are already eating, so that your baby can get used to being a part of mealtime " 
+                            TextColor="Black" FontSize="Small"/>
+
+                    <Label  Padding="10" Text="Initially, keep foods simple. As already mentioned. avocados and bananas can be areat starter foods, as well as hard-boiled eags or corn on the cob. Your baby's age and development will define how to serve these foods. For a baby just starting out with solids, the bigger the better (think big broccoli florets or a stick of banana). At around nine-m old, you can start to break or cut foods up into smaller pieces. This allows your baby to start using their pincer grasp to pick food up. " 
+                            TextColor="Black" FontSize="Small"/>
+
+                    <Label  Padding="10" Text=" If you don't mind mess, full-fat vogurt and oatmeal are great breakfast choices. You can begin to build in other flavors, too. Think grated apple, mashed pear, or a sprinkle of cinnamon. " 
+                            TextColor="Black" FontSize="Small"/>
+
+                    <Label  Padding="10" Text=" While it might feel like another thina to clean up, the baby-led approach provides a sensory and stimulating activity for your child. Once they realize what food is, and start to recognize their favorite things, you may have a hard time stopping them." 
+                            TextColor="Black" FontSize="Small"/>
+
+                    <Label Text= " Safety first " TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                    <Label  Padding="10" Text="It's important to know that your little one may experience some choking or gagging in the beginning. Technically, because they are controlling what goes into their mouths, this should be limited and relatively safe -but as with any eating in general, you should always be right there to help in case choking occurs. " 
+                            TextColor="Black" FontSize="Small"/>
+
+                    <Label  Padding="10" Text="Additionally, you may want to take a Baby First Aid course, to learn the differences between gagging and choking, as well as what to do in an emergency situation. " 
+                            TextColor="Black" FontSize="Small"/>
+
+                    <Label  Padding="10" Text="There is a wealth of additional resources out there on BLW, from apps to books and social media accounts. Always research new foods thoroughly and introduce them in ways that are age and skill appropriate for your little one " 
+                            TextColor="Black" FontSize="Small"/>
+
+
+                    <Label Text="Please note:"/>
+
+                    <Label Text=" This information is not intended to replace the advice of a trained medical doctor." />
+
+
+                    <Label Text=" Philips Consumer Lifestyle B.V. disclaims any liability for the decisions you make based on this information,"/>
+                    <Label Text=" which is provided to you on a general information basis only and not as a substitute for personalized medical advice."/>
+                    <Label Text="All contents copyright O Philips Consumer Lifestyle B.V. 2023. All rights reserved"/>
+
+                </StackLayout>
+            </ScrollView>
+        </ContentPage.Content>
+    </ContentPage>

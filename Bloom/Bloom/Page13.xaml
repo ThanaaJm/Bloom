@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.Page13">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text="The 'dad look'" TextColor="Black" FontSize="25" LineBreakMode="CharacterWrap" FontAttributes="Bold"
+                       VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                <Image Source="f10" Aspect="AspectFill" HeightRequest="200" WidthRequest="150"/>
+
+                <Label Text= "When you're on parental leave, vou start to notice the 'dad look" TextColor="Black" FontSize="15" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                <Label Padding="10"  Text=" When two new dads pass each other on the street, one carrying a snoozing baby in a sling, the other pushing a stroller, there is a definite moment of recoanition. A single, manly nod. A shared moment of understanding, of Dad-Dad solidarity. Just to let you know you're not alone " TextColor="Black" FontSize="Small"/>
+
+                <Label Text= "Moments like this are great" TextColor="Black" FontSize="15" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                <Label  Padding="10" Text=" But sometimes they're about as much as I can tolerate. "
+                        TextColor="Black" FontSize="Small" />
+
+                <Label  Padding="10" Text=" Anything longer, any conversation with a stranger that opens with the words, 'Hey, that's a cute baby, I have one of my own you know,' and I start steering my cart towards the nearest exit " 
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label Text= " It's not that I'm antisocial. I love meeting new people. But...." TextColor="Black" FontSize="15" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+                <Label  Padding="10" Text="There's a rule somewhere that when you meet a new person, your conversation should stick to 'safe' topics. And the safest topic of all is what special babies you both have. " 
+                        TextColor="Black" FontSize="Small"/>
+
+
+                <Label  Padding="10" Text="The trouble is, once you start on this line, it can be very difficult to get out of it. The conversation can go on forever, precisely because it covers no distance. " 
+                        TextColor="Black" FontSize="Small"/>
+
+
+                <Label  Padding="10" Text="If being a parent is a full-time job, then sometimes the best break is not having to talk about it. " 
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label Text=" Community Service" TextColor="Black" FontSize="15" LineBreakMode="CharacterWrap" FontAttributes="Bold"/>
+
+
+                <Label  Padding="10" Text=" A common theme these days is that we've lost our sense of community. We live in another city to our parents. We no longer know neighbors. " 
+                        TextColor="Black" FontSize="Small"/>
+
+
+                <Label  Padding="10" Text="Isolation hurts us most when we are at our most vulnerable. And the early days of bringing home a newborn are so very hard on us " 
+                        TextColor="Black" FontSize="Small"/>
+
+
+                <Label  Padding="10" Text=" Barely sleeping, eating not enough and at odd times, emotions swinging rapidly between awe and terror-these are the times when a social network is absolutely crucial. If not family, then friends, and if not friends, even people you barely know, but who know a good babysitter, or where the best soft play area is, or how reusable diapers work. " 
+                        TextColor="Black" FontSize="Small"/>
+
+
+                <Label  Padding="10" Text="So even if you are feeling antisocial, do try to go to those local events. Find the nearest sling library. Go on first aid courses for infants. Meet people. Swap phone numbers. Swap information. " 
+                        TextColor="Black" FontSize="Small"/>
+                <Label  Padding="10" Text="Be generous with what you know. If you're a parent, you're in a unique position to help parents-to-be. It's a lot of responsibility. That's what the 'dad look' is all about. " 
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label  Padding="10" Text="Be there for those who need it. And if what they need is to talk about their kids, be there for that, too. " 
+                        TextColor="Black" FontSize="Small"/>
+
+
+
+                <Label  Padding="10" Text=" Just remember: you are allowed to talk about other things too " 
+                        TextColor="Black" FontSize="Small"/>
+
+
+                <Label  Padding="10" Text=" Written by Adam Wilson" 
+                        TextColor="Black" FontSize="Small"/>
+
+                <Label Text="Please note:"/>
+
+                <Label Text=" This information is not intended to replace the advice of a trained medical doctor." />
+
+
+                <Label Text=" Philips Consumer Lifestyle B.V. disclaims any liability for the decisions you make based on this information,"/>
+                <Label Text=" which is provided to you on a general information basis only and not as a substitute for personalized medical advice."/>
+                <Label Text="All contents copyright O Philips Consumer Lifestyle B.V. 2023. All rights reserved"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
